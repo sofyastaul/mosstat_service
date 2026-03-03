@@ -1,0 +1,61 @@
+{
+    "7d767c1f404c284aa8d530945e35ba8d": {
+        "id": "7d767c1f404c284aa8d530945e35ba8d",
+        "type": "page",
+        "order": 0
+    },
+    "9c43b8268712f95414245c1ae3c0d8eb": {
+        "type": "widget",
+        "name": "Линейная диаграмма",
+        "entry": "b7fe4c40f0622ac71594469ba9001f9b",
+        "parent": "7d767c1f404c284aa8d530945e35ba8d"
+    },
+    "c276efbed3f8447d605f8fa2d00d78a0": {
+        "type": "widget",
+        "name": "Текст",
+        "entry": "5dc1c3875f0bf405e28220ea9ebce3ca",
+        "parent": "7d767c1f404c284aa8d530945e35ba8d"
+    },
+    "292f8f73b110d5cfd1f6f65fd8d88729": {
+        "type": "widget",
+        "name": "Таблица",
+        "entry": "8b5659817fa0d5f14e3b7dd850c3dfba",
+        "parent": "7d767c1f404c284aa8d530945e35ba8d"
+    },
+    "c6867a4c9f05a14d655149dbbe96fbec": {
+        "type": "widget",
+        "name": "Круговая диаграмма",
+        "entry": "858b46142c587836215ad94fe2a3700e",
+        "parent": "7d767c1f404c284aa8d530945e35ba8d"
+    },
+    "a23e9badf6ef63473f9f5167bbd4d065": {
+        "type": "widget",
+        "name": "Линейная диаграмма",
+        "entry": "af22a608a955d1d909967ce813c65943",
+        "parent": "7d767c1f404c284aa8d530945e35ba8d"
+    },
+    "d0b54ccaab514b0656ab55507b5e5285": {
+        "type": "widget",
+        "name": "Текст",
+        "entry": "0cc6f6ddc236113b5536400a19e0781f",
+        "parent": "7d767c1f404c284aa8d530945e35ba8d"
+    },
+    "9375e6b75525704032d51fa26565ab8d": {
+        "type": "widget",
+        "name": "Линейная диаграмма",
+        "entry": "57a1a7ebc07afdecf4d1d61024608c08",
+        "parent": "7d767c1f404c284aa8d530945e35ba8d"
+    },
+    "b51a15339cde823c5c94a3bb80894b0f": {
+        "type": "widget",
+        "name": "Линейная диаграмма",
+        "entry": "5702fa19910f7c3beee6fe75b29099d5",
+        "parent": "7d767c1f404c284aa8d530945e35ba8d"
+    },
+    "0c17c80b6a4f4b766c4d8f44bb10790f": {
+        "type": "widget",
+        "name": "Линейная диаграмма",
+        "entry": "0cf65d44694fabdf4106cb1f1f25da85",
+        "parent": "7d767c1f404c284aa8d530945e35ba8d"
+    }
+}

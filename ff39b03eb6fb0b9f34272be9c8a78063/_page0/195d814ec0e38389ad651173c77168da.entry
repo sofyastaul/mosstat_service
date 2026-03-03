@@ -1,0 +1,412 @@
+{
+    "_id": "195d814ec0e38389ad651173c77168da",
+    "_type": "Cubisio.Model.DashboardDesign",
+    "_props": {
+        "layoutCount": 1,
+        "widgetCount": 9,
+        "_settings": {
+            "commonFields": {},
+            "linkedFields": {},
+            "values": {
+                "layout": {
+                    "values": [
+                        {
+                            "resizePolicy": {
+                                "values": [
+                                    {
+                                        "value": "resizePolicyProportional"
+                                    }
+                                ],
+                                "id": "c96384c349f19444311dfd7f07ab2542",
+                                "render": "select"
+                            }
+                        }
+                    ],
+                    "id": "04536e4f8d38a9095aa019b54f85172a",
+                    "render": "group",
+                    "name": "Отображение"
+                },
+                "style": {
+                    "values": [
+                        {
+                            "wBackground": {
+                                "values": [
+                                    {
+                                        "wBackgroundColor": {
+                                            "checked": true,
+                                            "values": [
+                                                {
+                                                    "value": "rgb(231, 236, 241)"
+                                                }
+                                            ],
+                                            "id": "09a97a7c39eacd8c6544f0d0098ce834",
+                                            "render": "item"
+                                        },
+                                        "wBackgroundImage": {
+                                            "checked": false,
+                                            "values": [
+                                                {
+                                                    "wBackgroundImageIcon": {
+                                                        "values": [
+                                                            {}
+                                                        ],
+                                                        "id": "3fd6388806c74a8d91495c0066ee752d",
+                                                        "render": "item"
+                                                    },
+                                                    "wBackgroundImageSize": {
+                                                        "values": [
+                                                            {
+                                                                "value": "wBackgroundImageSizeOriginal",
+                                                                "items": {
+                                                                    "wBackgroundImageSizeOriginalScale": {
+                                                                        "checked": false,
+                                                                        "values": [
+                                                                            {
+                                                                                "value": "64px"
+                                                                            }
+                                                                        ],
+                                                                        "id": "aedcdfcfcd852e2bef05c253efbda94b",
+                                                                        "render": "item"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "id": "fc76082f8403222913fb7afd3bfea81a",
+                                                        "render": "select"
+                                                    },
+                                                    "wBackgroundImagePosition": {
+                                                        "values": [
+                                                            {
+                                                                "value": "center"
+                                                            }
+                                                        ],
+                                                        "id": "d925622e8d20ca7d5420a0e826d6c75a",
+                                                        "render": "item"
+                                                    },
+                                                    "wBackgroundImageOffsetX": {
+                                                        "values": [
+                                                            {
+                                                                "value": "0px"
+                                                            }
+                                                        ],
+                                                        "id": "42ad21a82287f0f81b0f894fb5da1766",
+                                                        "render": "item"
+                                                    },
+                                                    "wBackgroundImageOffsetY": {
+                                                        "values": [
+                                                            {
+                                                                "value": "0px"
+                                                            }
+                                                        ],
+                                                        "id": "b567b82d3975e4682cab22cf34a59373",
+                                                        "render": "item"
+                                                    },
+                                                    "wBackgroundImageRepeatX": {
+                                                        "checked": false,
+                                                        "values": [
+                                                            {}
+                                                        ],
+                                                        "id": "1e8e184f67cffed41ba07319cf491f52",
+                                                        "render": "item"
+                                                    },
+                                                    "wBackgroundImageRepeatY": {
+                                                        "checked": false,
+                                                        "values": [
+                                                            {}
+                                                        ],
+                                                        "id": "2fd3d2256cff4336ef0fc8686120d8ed",
+                                                        "render": "item"
+                                                    }
+                                                }
+                                            ],
+                                            "id": "826ecb2f5b9bb60eeb4c6b16427b9c4e",
+                                            "render": "group",
+                                            "name": "Изображение"
+                                        }
+                                    }
+                                ],
+                                "id": "83a05832449fee56ecd5d9dfed79322f",
+                                "render": "group",
+                                "name": "Заливка"
+                            },
+                            "wLoading": {
+                                "values": [
+                                    {
+                                        "wLoadingText": {
+                                            "values": [
+                                                {
+                                                    "value": "Загрузка"
+                                                }
+                                            ],
+                                            "id": "1a2adfd5cbb8b6d6f0f1da6e6ca64971",
+                                            "render": "item",
+                                            "valueType": "string"
+                                        },
+                                        "wLoadingIcon": {
+                                            "checked": false,
+                                            "values": [
+                                                {}
+                                            ],
+                                            "id": "64ad0b68e40a7b2995c07cae0b33b991",
+                                            "render": "item"
+                                        }
+                                    }
+                                ],
+                                "id": "d9dd2c28275bcb5d298823868fec1b0e",
+                                "render": "group",
+                                "name": "Стиль окна загрузки"
+                            },
+                            "wCss": {
+                                "checked": false,
+                                "values": [
+                                    {
+                                        "value": "/* Заполните объект CSS значениями */\n{\n\n}"
+                                    }
+                                ],
+                                "id": "60787bf5ab59f9c6d2f9d051bd282b35",
+                                "render": "item"
+                            }
+                        }
+                    ],
+                    "id": "5c5d7fd12e4c917a799d521f10a1b406",
+                    "render": "group",
+                    "name": "Стиль"
+                },
+                "styleSettings": {
+                    "values": [
+                        {
+                            "stylePalette": {
+                                "values": [
+                                    {}
+                                ],
+                                "id": "84411c22e000c942f6eaad0fc86bc3dd",
+                                "render": "styleBinding"
+                            }
+                        }
+                    ],
+                    "id": "b8bd8ee2b26cff454698a072258b0c4d",
+                    "render": "group",
+                    "name": "Палитра стилей"
+                },
+                "params": {
+                    "values": [],
+                    "id": "a6211798587fe42500e16437569877d8",
+                    "render": "group",
+                    "name": "Параметры URL"
+                },
+                "publication": {
+                    "values": [
+                        {
+                            "access": {
+                                "values": [
+                                    {
+                                        "workspaceId": {
+                                            "values": [],
+                                            "id": "5b215e50930a130d645da2d4ff2373a2",
+                                            "render": "template"
+                                        },
+                                        "dashboardId": {
+                                            "values": [],
+                                            "id": "fd7f1af57357ee1e0fbc94177178580d",
+                                            "render": "template"
+                                        },
+                                        "dashboardShare": {
+                                            "values": [],
+                                            "id": "c3f8c22d6fb303456c76ef069b3e46db",
+                                            "render": "template"
+                                        }
+                                    }
+                                ],
+                                "id": "d27acd347bdea898db35b6b3bd43be3c",
+                                "render": "group",
+                                "name": "Доступ к объекту"
+                            },
+                            "description": {
+                                "values": [
+                                    {}
+                                ],
+                                "id": "c458f1203353918e291568a658aada81",
+                                "render": "item"
+                            },
+                            "icon": {
+                                "values": [
+                                    {}
+                                ],
+                                "id": "87910822bda0006b7ab9461aabae32a4",
+                                "render": "item"
+                            },
+                            "logo": {
+                                "values": [
+                                    {}
+                                ],
+                                "id": "a5b65db055941ffc49f635b2bf9d32b7",
+                                "render": "item"
+                            },
+                            "pwa": {
+                                "checked": true,
+                                "values": [
+                                    {}
+                                ],
+                                "id": "b5a5d4fde46797a4b4f74525d8d44249",
+                                "render": "item"
+                            },
+                            "keywords": {
+                                "values": [],
+                                "id": "bd12610eb34f9d6661ed6d094da2a2c1",
+                                "render": "item"
+                            },
+                            "url": {
+                                "values": [
+                                    {}
+                                ],
+                                "id": "5005ab112533a1ceef644c3430ced2e3",
+                                "render": "item"
+                            },
+                            "watermark": {
+                                "checked": false,
+                                "values": [
+                                    {
+                                        "wmIcon": {
+                                            "values": [
+                                                {}
+                                            ],
+                                            "id": "c17d2a5ddf0aa8fa9e73b0d8005bba05",
+                                            "render": "item"
+                                        },
+                                        "wmPosition": {
+                                            "values": [
+                                                {}
+                                            ],
+                                            "id": "029124c7531105769fc33874ceb5af3a",
+                                            "render": "item"
+                                        }
+                                    }
+                                ],
+                                "id": "3b8c2fa204999f3ec967fbfcb742c103",
+                                "render": "group",
+                                "name": "Вставить водяной знак"
+                            }
+                        }
+                    ],
+                    "id": "f31aa9117bec6a15445b3c10cfb66e0b",
+                    "render": "group",
+                    "name": "Публикация"
+                },
+                "storedFilter": {
+                    "values": [
+                        {
+                            "storedFilterDefault": {
+                                "checked": false,
+                                "values": [
+                                    {}
+                                ],
+                                "id": "0c54873c1215378b6c64bc6b173f1ac7",
+                                "render": "select"
+                            },
+                            "storedFilterUrlParam": {
+                                "checked": false,
+                                "values": [
+                                    {
+                                        "value": "storedFilter"
+                                    }
+                                ],
+                                "id": "d51d92eed5fd8ac996f197d1caa6fa7a",
+                                "render": "item",
+                                "defaultValue": "storedFilter",
+                                "valueType": "string"
+                            }
+                        }
+                    ],
+                    "id": "f443780aad3f068cb823c2e42374bc33",
+                    "render": "group",
+                    "name": "Сохраненные фильтры"
+                },
+                "activateFilter": {
+                    "values": [
+                        {
+                            "dataSource": {
+                                "values": [
+                                    {}
+                                ],
+                                "id": "f1ec4a4bf51895b98c374c9690f17044",
+                                "render": "sourceBinding"
+                            },
+                            "filters": {
+                                "values": [],
+                                "id": "4f3bfb442723933327aed28462a53dc9",
+                                "render": "group",
+                                "name": "Фильтры"
+                            }
+                        }
+                    ],
+                    "id": "0525f957403202c40d9fa96335830457",
+                    "render": "group",
+                    "name": "Активация фильтров"
+                },
+                "details": {
+                    "values": [
+                        {
+                            "metaTags": {
+                                "values": [],
+                                "id": "310e58fbbe1cb171f58736e4069045a3",
+                                "render": "group",
+                                "name": "Мета тэги"
+                            },
+                            "headEntries": {
+                                "checked": false,
+                                "values": [
+                                    {}
+                                ],
+                                "id": "8bcec53e97c72b7333323cc52ca54b46",
+                                "render": "item"
+                            },
+                            "bodyBefore": {
+                                "checked": false,
+                                "values": [
+                                    {}
+                                ],
+                                "id": "7cd15fec1104a08fec277a51200545ca",
+                                "render": "item"
+                            },
+                            "bodyAfter": {
+                                "checked": false,
+                                "values": [
+                                    {}
+                                ],
+                                "id": "0b0f51f411aabb9ac190ae567aa79a72",
+                                "render": "item"
+                            }
+                        }
+                    ],
+                    "id": "594037aea4e6a5b9db6e6c13a8b77cd5",
+                    "render": "group",
+                    "name": "Дополнительно"
+                }
+            }
+        }
+    },
+    "_name": "Дашборд",
+    "_parent": null,
+    "_owner": "sofya.mixajlova.12@mail.ru",
+    "_shares": {},
+    "_created": 1772534170783,
+    "_updated": 1772569322579,
+    "_version": 77,
+    "_children": {
+        "b7fe4c40f0622ac71594469ba9001f9b": 1,
+        "5dc1c3875f0bf405e28220ea9ebce3ca": 1,
+        "8b5659817fa0d5f14e3b7dd850c3dfba": 1,
+        "858b46142c587836215ad94fe2a3700e": 1,
+        "af22a608a955d1d909967ce813c65943": 1,
+        "0cc6f6ddc236113b5536400a19e0781f": 1,
+        "57a1a7ebc07afdecf4d1d61024608c08": 1,
+        "5702fa19910f7c3beee6fe75b29099d5": 1,
+        "0cf65d44694fabdf4106cb1f1f25da85": 1
+    },
+    "_artifacts": {
+        ".widgets": "value",
+        ".structure": "value",
+        ".layouts": "value"
+    },
+    "_sourceRead": false
+}

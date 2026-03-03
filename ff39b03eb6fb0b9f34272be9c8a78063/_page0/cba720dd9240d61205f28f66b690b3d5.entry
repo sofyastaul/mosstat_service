@@ -1,0 +1,20 @@
+{
+    "_id": "cba720dd9240d61205f28f66b690b3d5",
+    "_type": "DataCube.Model.SqlSchema",
+    "_props": {},
+    "_name": "public",
+    "_parent": "9083798786a1fe161bfdd045ec9eb93c",
+    "_owner": "sofya.mixajlova.12@mail.ru",
+    "_shares": {},
+    "_created": 1772534006862,
+    "_updated": 1772534007876,
+    "_version": 1,
+    "_children": {
+        "5570597b342384a62b56fd26cf6e03d4": 1,
+        "847578b0e30c7deb1c22f92df38067bc": 1,
+        "a7b517d16e7acd4bf23ed3a06f86a472": 1,
+        "ca1153557d2742b210542107a7266183": 1,
+        "34dfed06979f6584818d87c7362cad4a": 1
+    },
+    "_artifacts": {}
+}

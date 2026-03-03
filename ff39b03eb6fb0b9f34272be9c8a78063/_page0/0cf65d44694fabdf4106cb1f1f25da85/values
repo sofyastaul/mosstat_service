@@ -1,0 +1,3467 @@
+{
+    "commonFields": {
+        "xAxisNames": {
+            "values": [
+                "Ось X"
+            ]
+        },
+        "yAxisNames": {
+            "values": [
+                "Ось Y"
+            ]
+        },
+        "toolbarAction": {
+            "values": []
+        }
+    },
+    "linkedFields": {
+        "source": [
+            "categories",
+            "minX",
+            "maxX",
+            "minY",
+            "maxY",
+            "seriesName",
+            "name",
+            "data",
+            "series"
+        ]
+    },
+    "values": {
+        "toolbarActions": {
+            "id": "fd81d7f793d025dd649b19219e0a447c",
+            "render": "group",
+            "values": [],
+            "name": "Операции"
+        },
+        "backStyle": {
+            "id": "4bab899531ab6e22243e0d9f8c120116",
+            "render": "group",
+            "values": [
+                {
+                    "wStyle": {
+                        "id": "fd1e67cef303a53d5e4f4e46696ce04e",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "wBackground": {
+                        "id": "60b119600fbf7eb8d4ed8705e626e970",
+                        "render": "group",
+                        "values": [
+                            {
+                                "wBackgroundColor": {
+                                    "checked": false,
+                                    "id": "3b3757f72d69ea44501ba43189e662bf",
+                                    "render": "item",
+                                    "values": [
+                                        {
+                                            "value": "rgb(118,165,175)"
+                                        }
+                                    ]
+                                },
+                                "wBackgroundImage": {
+                                    "checked": false,
+                                    "id": "85b389cb2ff0a68be147dcc6de93019e",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "wBackgroundImageIcon": {
+                                                "id": "017b44253e2adcdaa5897f30d047e609",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "wBackgroundImageSize": {
+                                                "id": "3505588736ef0a1c8d591b456cb8f868",
+                                                "render": "select",
+                                                "values": [
+                                                    {
+                                                        "items": {
+                                                            "wBackgroundImageSizeOriginalScale": {
+                                                                "checked": false,
+                                                                "id": "c6f7b4f0c3ef92df1c714d038b5db4e3",
+                                                                "render": "item",
+                                                                "values": [
+                                                                    {
+                                                                        "value": "64px"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "wBackgroundImageSizeManualWidth": {
+                                                                "id": "49fc532c2847367cdadd46ac27993ccc",
+                                                                "render": "item",
+                                                                "values": [
+                                                                    {
+                                                                        "value": "100%"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "wBackgroundImageSizeManualHeight": {
+                                                                "id": "8b229ff625c5d6ff5890ddb4a5717b27",
+                                                                "render": "item",
+                                                                "values": [
+                                                                    {
+                                                                        "value": "100%"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        "value": "wBackgroundImageSizeOriginal"
+                                                    }
+                                                ]
+                                            },
+                                            "wBackgroundImagePosition": {
+                                                "id": "8a02dcc01d4240a7e8a750d47d550804",
+                                                "render": "item",
+                                                "values": [
+                                                    {
+                                                        "value": "center"
+                                                    }
+                                                ]
+                                            },
+                                            "wBackgroundImageOffsetX": {
+                                                "id": "a2c669f12d361a53d41270bb0b6f2c89",
+                                                "render": "item",
+                                                "values": [
+                                                    {
+                                                        "value": "0px"
+                                                    }
+                                                ]
+                                            },
+                                            "wBackgroundImageOffsetY": {
+                                                "id": "7ba96a5347fc1d65bc3aa26b0b3136d9",
+                                                "render": "item",
+                                                "values": [
+                                                    {
+                                                        "value": "0px"
+                                                    }
+                                                ]
+                                            },
+                                            "wBackgroundImageRepeatX": {
+                                                "checked": false,
+                                                "id": "9f05509bbaed35f736a96c355829deea",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "wBackgroundImageRepeatY": {
+                                                "checked": false,
+                                                "id": "eae1281adf316c80eabf7e5acd1dbd33",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "name": "Изображение"
+                                }
+                            }
+                        ],
+                        "name": "Заливка"
+                    },
+                    "wBorder": {
+                        "checked": false,
+                        "id": "3efda992ed5db9d7ba6268575a651442",
+                        "render": "group",
+                        "values": [
+                            {
+                                "wBorderType": {
+                                    "id": "126d6d2d2cd1269dbeb66bc7ac8c6e3a",
+                                    "render": "item",
+                                    "values": [
+                                        {
+                                            "value": "none"
+                                        }
+                                    ]
+                                },
+                                "wBorderWidth": {
+                                    "id": "d9b3ca9af7d7d70d21db1df9fc34cf34",
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                "wBorderColor": {
+                                    "id": "6656384d4d90e4271ea8c91be03f7d7b",
+                                    "render": "item",
+                                    "values": [
+                                        {
+                                            "value": "rgb(19,79,92)"
+                                        }
+                                    ]
+                                },
+                                "wBorderSides": {
+                                    "id": "a90c3ae2ea97234baf74be143b3da0ba",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "wBorderSideTop": {
+                                                "checked": false,
+                                                "id": "7f5935a621783d2cb4d807fe9d1b3905",
+                                                "render": "group",
+                                                "values": [
+                                                    {
+                                                        "wBorderTypeTop": {
+                                                            "id": "75bdad42ebdab5339d803244b2172ec5",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {
+                                                                    "value": "none"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wBorderWidthTop": {
+                                                            "id": "a75dcd8eed7dc23ed7f6126097fa7c8f",
+                                                            "render": "item",
+                                                            "valueType": "number",
+                                                            "values": [
+                                                                {
+                                                                    "value": 1
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wBorderColorTop": {
+                                                            "id": "243a438161ee19c39779c6493294b3da",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {
+                                                                    "value": "rgb(19,79,92)"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "name": "Верхняя сторона"
+                                            },
+                                            "wBorderSideRight": {
+                                                "checked": false,
+                                                "id": "86e2bc4c2e0b0e5cb4d15875d87d5d99",
+                                                "render": "group",
+                                                "values": [
+                                                    {
+                                                        "wBorderTypeRight": {
+                                                            "id": "a2ab9a938e44a2b0b42fba8df118f7ba",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {
+                                                                    "value": "none"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wBorderWidthRight": {
+                                                            "id": "7374b2d21a9e71c9390907ba5cde908c",
+                                                            "render": "item",
+                                                            "valueType": "number",
+                                                            "values": [
+                                                                {
+                                                                    "value": 1
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wBorderColorRight": {
+                                                            "id": "b7df1fdd19838dc870fe3fa1c0e84101",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {
+                                                                    "value": "rgb(19,79,92)"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "name": "Правая сторона"
+                                            },
+                                            "wBorderSideBottom": {
+                                                "checked": false,
+                                                "id": "df1f80895a4db5fa3ebfeaf70ec106df",
+                                                "render": "group",
+                                                "values": [
+                                                    {
+                                                        "wBorderTypeBottom": {
+                                                            "id": "333a2f78109985592dfb5ac3e17cbfca",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {
+                                                                    "value": "none"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wBorderWidthBottom": {
+                                                            "id": "68de460a69617a6d794b733f890a4638",
+                                                            "render": "item",
+                                                            "valueType": "number",
+                                                            "values": [
+                                                                {
+                                                                    "value": 1
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wBorderColorBottom": {
+                                                            "id": "fdab7b70d2d0f990ab2b335edcd5f14c",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {
+                                                                    "value": "rgb(19,79,92)"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "name": "Нижняя сторона"
+                                            },
+                                            "wBorderSideLeft": {
+                                                "checked": false,
+                                                "id": "0e0e30e62fe6aa95a2ec69f52ea8f88c",
+                                                "render": "group",
+                                                "values": [
+                                                    {
+                                                        "wBorderTypeLeft": {
+                                                            "id": "8b9a3c0b70dad2da06b2498cf6ca7c84",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {
+                                                                    "value": "none"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wBorderWidthLeft": {
+                                                            "id": "fce24066493d8cb36b77cbcc126e3545",
+                                                            "render": "item",
+                                                            "valueType": "number",
+                                                            "values": [
+                                                                {
+                                                                    "value": 1
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wBorderColorLeft": {
+                                                            "id": "2fdea906fce9fd47bc071598ad5b07cf",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {
+                                                                    "value": "rgb(19,79,92)"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "name": "Левая сторона"
+                                            }
+                                        }
+                                    ],
+                                    "name": "Переопределить стороны"
+                                }
+                            }
+                        ],
+                        "name": "Обводка"
+                    },
+                    "wText": {
+                        "id": "87d1934c7cabe9bfa80e4cc82fe1035e",
+                        "render": "group",
+                        "values": [
+                            {
+                                "wTextFont": {
+                                    "checked": false,
+                                    "id": "cfae3bd74bbc4ced24219082ca078793",
+                                    "render": "fontBinding",
+                                    "values": [
+                                        {
+                                            "value": "inherit"
+                                        }
+                                    ]
+                                },
+                                "wTextSize": {
+                                    "checked": false,
+                                    "id": "ba0cbe95e6f1ce4643cf0543750b948d",
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {
+                                            "value": 13
+                                        }
+                                    ]
+                                },
+                                "wTextResizeDown": {
+                                    "checked": true,
+                                    "id": "77903af5a6b73b4af6b1257e841885dc",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "wTextResizeMin": {
+                                                "checked": false,
+                                                "id": "0cecad3f54d6644c7187c7ec1d4db95d",
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 8
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "name": "Адаптивное уменьшение текста"
+                                },
+                                "wTextResizeUp": {
+                                    "checked": false,
+                                    "id": "51500e12eeeffda24c4f8c7833fae2fd",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "wTextResizeMax": {
+                                                "checked": false,
+                                                "id": "be6a89044ec366319e65a0cddd310e57",
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 20
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "name": "Адаптивное увеличение текста"
+                                },
+                                "wTextColor": {
+                                    "checked": false,
+                                    "id": "7aecdb64b13f7467a1a90d94178a8f3a",
+                                    "render": "item",
+                                    "values": [
+                                        {
+                                            "value": "rgb(0,0,0)"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "name": "Текст"
+                    },
+                    "wDrillDown": {
+                        "id": "488a2c23554aaa91a5a7fd475f3c621c",
+                        "render": "group",
+                        "values": [
+                            {
+                                "wDrillDownParagraphs": {
+                                    "id": "3e8bede1ab5973985bbeadb4a76abd61",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "wDrillDownParagraphCurrent": {
+                                                "id": "79d29c1dcec34925c555fd1a91c1d491",
+                                                "render": "group",
+                                                "values": [
+                                                    {
+                                                        "wDrillDownParagraphCurrentBackgroundColor": {
+                                                            "checked": false,
+                                                            "id": "2b6f648841dbe4224d08c3f5fd510e71",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {
+                                                                    "value": "#d37531"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wDrillDownParagraphCurrentTextColor": {
+                                                            "checked": false,
+                                                            "id": "aeb80d7b25d3d8a7d3e96c6345b02ef8",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {
+                                                                    "value": "#ffffff"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wDrillDownParagraphCurrentBorderColor": {
+                                                            "checked": false,
+                                                            "id": "8fe2aa99675b3e43bbb17835cb5e3638",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {}
+                                                            ]
+                                                        },
+                                                        "wDrillDownParagraphCurrentCss": {
+                                                            "checked": false,
+                                                            "id": "ac1af08b990845b23708e69f9e6cf517",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {
+                                                                    "value": "/* Заполните объект CSS значениями */\n{\n\n}"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "name": "Активный элемент"
+                                            },
+                                            "wDrillDownParagraphBackgroundColor": {
+                                                "checked": false,
+                                                "id": "d42d38e3747fdced68c4aa92646a98fc",
+                                                "render": "item",
+                                                "values": [
+                                                    {
+                                                        "value": "#0000000a"
+                                                    }
+                                                ]
+                                            },
+                                            "wDrillDownParagraphTextColor": {
+                                                "checked": false,
+                                                "id": "9aa987273b64c2a71b33a2b0d299af59",
+                                                "render": "item",
+                                                "values": [
+                                                    {
+                                                        "value": "#000000"
+                                                    }
+                                                ]
+                                            },
+                                            "wDrillDownParagraphBorder": {
+                                                "checked": false,
+                                                "id": "36891ffc710baa281862c3ee555c6216",
+                                                "render": "group",
+                                                "values": [
+                                                    {
+                                                        "wDrillDownParagraphBorderType": {
+                                                            "id": "a3608374a5f2508c6c7467d8bdf3eded",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {
+                                                                    "value": "none"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wDrillDownParagraphBorderWidth": {
+                                                            "id": "680edb874df6a46f1af0ef720f769397",
+                                                            "render": "item",
+                                                            "valueType": "number",
+                                                            "values": [
+                                                                {
+                                                                    "value": 1
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wDrillDownParagraphBorderColor": {
+                                                            "id": "acf32fa6da5860ef10192bc5c41a84ee",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {}
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "name": "Обводка"
+                                            },
+                                            "wDrillDownParagraphCorners": {
+                                                "checked": false,
+                                                "id": "8aa9ee78907abd1c574b3d0c23ad8ee9",
+                                                "render": "group",
+                                                "values": [
+                                                    {
+                                                        "wDrillDownParagraphCornersAll": {
+                                                            "id": "ba449ebed66910c9df5bd98884688181",
+                                                            "render": "item",
+                                                            "valueType": "number",
+                                                            "values": [
+                                                                {}
+                                                            ]
+                                                        },
+                                                        "wDrillDownParagraphCornerSides": {
+                                                            "id": "100dc853ee268fc155fa2cf48ef59674",
+                                                            "render": "group",
+                                                            "values": [
+                                                                {
+                                                                    "wDrillDownParagraphCornerTopLeft": {
+                                                                        "checked": false,
+                                                                        "id": "69d1665458b57c5ee31bc19fdec357f5",
+                                                                        "render": "item",
+                                                                        "valueType": "number",
+                                                                        "values": [
+                                                                            {
+                                                                                "value": 0
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "wDrillDownParagraphCornerTopRight": {
+                                                                        "checked": false,
+                                                                        "id": "f9a2736e59f0728bcd60242d9798c83a",
+                                                                        "render": "item",
+                                                                        "valueType": "number",
+                                                                        "values": [
+                                                                            {
+                                                                                "value": 0
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "wDrillDownParagraphCornerBottomRight": {
+                                                                        "checked": false,
+                                                                        "id": "162a614e561dac21508b32f5c96ccaeb",
+                                                                        "render": "item",
+                                                                        "valueType": "number",
+                                                                        "values": [
+                                                                            {
+                                                                                "value": 0
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "wDrillDownParagraphCornerBottomLeft": {
+                                                                        "checked": false,
+                                                                        "id": "f97a8c3402495fab2eed4a0abb85117f",
+                                                                        "render": "item",
+                                                                        "valueType": "number",
+                                                                        "values": [
+                                                                            {
+                                                                                "value": 0
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "name": "Переопределить углы"
+                                                        }
+                                                    }
+                                                ],
+                                                "name": "Закругление углов (px)"
+                                            },
+                                            "wDrillDownParagraphPadding": {
+                                                "checked": false,
+                                                "id": "1761fbaca0669a94c6e5bce377d60b73",
+                                                "render": "group",
+                                                "values": [
+                                                    {
+                                                        "wDrillDownParagraphPaddingAll": {
+                                                            "id": "f4440169c02d37b0b5524eaa2fa59b6a",
+                                                            "render": "item",
+                                                            "valueType": "number",
+                                                            "values": [
+                                                                {}
+                                                            ]
+                                                        },
+                                                        "wDrillDownParagraphPaddingSides": {
+                                                            "id": "a57d87453dc7d32e4e1c9a3052729230",
+                                                            "render": "group",
+                                                            "values": [
+                                                                {
+                                                                    "wDrillDownParagraphPaddingTop": {
+                                                                        "checked": false,
+                                                                        "id": "643a1d677735dced73b19a7f702830a2",
+                                                                        "render": "item",
+                                                                        "valueType": "number",
+                                                                        "values": [
+                                                                            {
+                                                                                "value": 0
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "wDrillDownParagraphPaddingRight": {
+                                                                        "checked": false,
+                                                                        "id": "dbe81989f1802a36968fc5183f863178",
+                                                                        "render": "item",
+                                                                        "valueType": "number",
+                                                                        "values": [
+                                                                            {
+                                                                                "value": 4
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "wDrillDownParagraphPaddingBottom": {
+                                                                        "checked": false,
+                                                                        "id": "1d165865e6aba7d9e5cf66cf61dc1bf6",
+                                                                        "render": "item",
+                                                                        "valueType": "number",
+                                                                        "values": [
+                                                                            {
+                                                                                "value": 0
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "wDrillDownParagraphPaddingLeft": {
+                                                                        "checked": false,
+                                                                        "id": "5de8724575680dacf9b7344cbcfce07b",
+                                                                        "render": "item",
+                                                                        "valueType": "number",
+                                                                        "values": [
+                                                                            {
+                                                                                "value": 4
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "name": "Переопределить"
+                                                        }
+                                                    }
+                                                ],
+                                                "name": "Отступы (px)"
+                                            },
+                                            "wDrillDownParagraphCss": {
+                                                "checked": false,
+                                                "id": "f10573b66b97b47381493f34847dfffd",
+                                                "render": "item",
+                                                "values": [
+                                                    {
+                                                        "value": "/* Заполните объект CSS значениями */\n{\n\n}"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "name": "Элементы"
+                                },
+                                "wDrillDownGoback": {
+                                    "id": "1c0c6b62e480ef28bbdec0f14b35bf5f",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "wDrillDownGobackBackgroundColor": {
+                                                "checked": false,
+                                                "id": "b6935e0b33d988a5c7c16c20b60627b6",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "wDrillDownGobackTextColor": {
+                                                "checked": false,
+                                                "id": "ba9f71abd68846bb0ecd35a5a8dcd466",
+                                                "render": "item",
+                                                "values": [
+                                                    {
+                                                        "value": "#000000"
+                                                    }
+                                                ]
+                                            },
+                                            "wDrillDownGobackBorder": {
+                                                "checked": false,
+                                                "id": "2fa660b8623393a15a14c65f0705d02d",
+                                                "render": "group",
+                                                "values": [
+                                                    {
+                                                        "wDrillDownGobackBorderType": {
+                                                            "id": "191a868cac8caed3558206825fb6020d",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {
+                                                                    "value": "none"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wDrillDownGobackBorderWidth": {
+                                                            "id": "516915f2a36106488c8c73971febeb1b",
+                                                            "render": "item",
+                                                            "valueType": "number",
+                                                            "values": [
+                                                                {
+                                                                    "value": 1
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wDrillDownGobackBorderColor": {
+                                                            "id": "7a964ad58e79991b28de321c2276b631",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {}
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "name": "Обводка"
+                                            },
+                                            "wDrillDownGobackPadding": {
+                                                "checked": false,
+                                                "id": "6d41a814b4278489fc0f0bccb760da88",
+                                                "render": "group",
+                                                "values": [
+                                                    {
+                                                        "wDrillDownGobackPaddingAll": {
+                                                            "id": "cf40927c99af1c609d59cb887b8cd230",
+                                                            "render": "item",
+                                                            "valueType": "number",
+                                                            "values": [
+                                                                {}
+                                                            ]
+                                                        },
+                                                        "wDrillDownGobackPaddingSides": {
+                                                            "id": "babcd9e058652fc6a454a7e39995a570",
+                                                            "render": "group",
+                                                            "values": [
+                                                                {
+                                                                    "wDrillDownGobackPaddingTop": {
+                                                                        "checked": false,
+                                                                        "id": "9ec8015ec0945b7049b4ad594cfb4c09",
+                                                                        "render": "item",
+                                                                        "valueType": "number",
+                                                                        "values": [
+                                                                            {
+                                                                                "value": 0
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "wDrillDownGobackPaddingRight": {
+                                                                        "checked": false,
+                                                                        "id": "c28857c043288a32f7125920c091255f",
+                                                                        "render": "item",
+                                                                        "valueType": "number",
+                                                                        "values": [
+                                                                            {
+                                                                                "value": 0
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "wDrillDownGobackPaddingBottom": {
+                                                                        "checked": false,
+                                                                        "id": "13d43103db2104fd8eacd5a6a1290881",
+                                                                        "render": "item",
+                                                                        "valueType": "number",
+                                                                        "values": [
+                                                                            {
+                                                                                "value": 0
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "wDrillDownGobackPaddingLeft": {
+                                                                        "checked": false,
+                                                                        "id": "2a62d2096fbeb336743689abfd8cad1a",
+                                                                        "render": "item",
+                                                                        "valueType": "number",
+                                                                        "values": [
+                                                                            {
+                                                                                "value": 0
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "name": "Переопределить"
+                                                        }
+                                                    }
+                                                ],
+                                                "name": "Отступы (px)"
+                                            },
+                                            "wDrillDownGobackCss": {
+                                                "checked": false,
+                                                "id": "a874df60687b6c7f9fa8eb094cb06e44",
+                                                "render": "item",
+                                                "values": [
+                                                    {
+                                                        "value": "/* Заполните объект CSS значениями */\n{\n\n}"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "name": "Кнопка \"Назад\""
+                                },
+                                "wDrillDownBackgroundColor": {
+                                    "checked": false,
+                                    "id": "6207603d6bc57cd34311c613b338a83d",
+                                    "render": "item",
+                                    "values": [
+                                        {
+                                            "value": "#0000000a"
+                                        }
+                                    ]
+                                },
+                                "wDrillDownTextColor": {
+                                    "checked": false,
+                                    "id": "f38ea694817fbc17cc6f6aa4e1323205",
+                                    "render": "item",
+                                    "values": [
+                                        {
+                                            "value": "#000000"
+                                        }
+                                    ]
+                                },
+                                "wDrillDownTextSize": {
+                                    "checked": false,
+                                    "id": "b128ad4f123fda024c8d6fcc211ab3db",
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {
+                                            "value": 13
+                                        }
+                                    ]
+                                },
+                                "wDrillDownPadding": {
+                                    "checked": false,
+                                    "id": "175bbdb27c57bf708bdbff207128dba3",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "wDrillDownPaddingAll": {
+                                                "id": "265a6cdf37a32617565cd8b5bfd7b026",
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "wDrillDownPaddingSides": {
+                                                "id": "50cb427cc10ec7a0c78680b2a4b98448",
+                                                "render": "group",
+                                                "values": [
+                                                    {
+                                                        "wDrillDownPaddingTop": {
+                                                            "checked": false,
+                                                            "id": "e70c9982c6f0c5259f2f47972e894b0c",
+                                                            "render": "item",
+                                                            "valueType": "number",
+                                                            "values": [
+                                                                {
+                                                                    "value": 0
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wDrillDownPaddingRight": {
+                                                            "checked": false,
+                                                            "id": "28048c2b4f1c280de8801e1a9f874d8f",
+                                                            "render": "item",
+                                                            "valueType": "number",
+                                                            "values": [
+                                                                {
+                                                                    "value": 0
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wDrillDownPaddingBottom": {
+                                                            "checked": false,
+                                                            "id": "6074fc03cfc09d5b7be265ab311083db",
+                                                            "render": "item",
+                                                            "valueType": "number",
+                                                            "values": [
+                                                                {
+                                                                    "value": 0
+                                                                }
+                                                            ]
+                                                        },
+                                                        "wDrillDownPaddingLeft": {
+                                                            "checked": false,
+                                                            "id": "c1cc072973fecc4c24fe2ea6378311a3",
+                                                            "render": "item",
+                                                            "valueType": "number",
+                                                            "values": [
+                                                                {
+                                                                    "value": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "name": "Переопределить"
+                                            }
+                                        }
+                                    ],
+                                    "name": "Отступы (px)"
+                                },
+                                "wDrillDownCss": {
+                                    "checked": false,
+                                    "id": "d9847ba20556e96c75b195173f63a7e2",
+                                    "render": "item",
+                                    "values": [
+                                        {
+                                            "value": "/* Заполните объект CSS значениями */\n{\n\n}"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "name": "Панель DrillDown"
+                    },
+                    "wCorners": {
+                        "checked": false,
+                        "id": "d1fc19de32c467038f102d35fcc0cc60",
+                        "render": "group",
+                        "values": [
+                            {
+                                "wCornersAll": {
+                                    "id": "e5dab7592eb3e3ec696bb07325e54815",
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "wCornerSides": {
+                                    "id": "aef59267dca5b9ce64515c3a92443d78",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "wCornerTopLeft": {
+                                                "checked": false,
+                                                "id": "39b7681c07aacbb727a1b34a36b2a7ac",
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "wCornerTopRight": {
+                                                "checked": false,
+                                                "id": "06101d5e5a91761f1e9692bad7d94393",
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "wCornerBottomRight": {
+                                                "checked": false,
+                                                "id": "5ee80c1c12ebc14d15dccb9e8bf723c7",
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "wCornerBottomLeft": {
+                                                "checked": false,
+                                                "id": "b110459ea7c23720c5a6b25164e07073",
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "name": "Переопределить каждый угол"
+                                }
+                            }
+                        ],
+                        "name": "Закругление углов (px)"
+                    },
+                    "wPadding": {
+                        "checked": false,
+                        "id": "cac15b09dd1ffd3950cb5466db401412",
+                        "render": "group",
+                        "values": [
+                            {
+                                "wPaddingAll": {
+                                    "id": "2c957cfdfd4f149301e64635d4255613",
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "wPaddingSides": {
+                                    "id": "d50b035630f0df71cf77391459caa460",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "wPaddingTop": {
+                                                "checked": false,
+                                                "id": "2f8cae162ebc4eba700fcb3360ac0ccb",
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "wPaddingRight": {
+                                                "checked": false,
+                                                "id": "0ff53075bc2157b70776421631d82757",
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "wPaddingBottom": {
+                                                "checked": false,
+                                                "id": "e3a3d708b7909332b5e020b953897272",
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "wPaddingLeft": {
+                                                "checked": false,
+                                                "id": "81075a20a59f26fd921bca5609016209",
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "name": "Переопределить"
+                                }
+                            }
+                        ],
+                        "name": "Отступы (px)"
+                    },
+                    "wTransparency": {
+                        "checked": false,
+                        "id": "3eba2d37f9e35ad9d7cca2cfc2ada281",
+                        "defaultValue": 0,
+                        "render": "item",
+                        "values": [
+                            {
+                                "value": 0
+                            }
+                        ]
+                    },
+                    "wCss": {
+                        "checked": false,
+                        "id": "3b16dc96949379c652a75dbd1786509a",
+                        "render": "item",
+                        "values": [
+                            {
+                                "value": "/* Заполните объект CSS значениями */\n{\n\n}"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "name": "Стиль"
+        },
+        "common": {
+            "id": "fd554a0e2df0e0b14fb16d2020bb2730",
+            "render": "group",
+            "values": [
+                {
+                    "showFilters": {
+                        "checked": true,
+                        "id": "d933d9e0a8715b899d81c0b7509fe3e3",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "icon": {
+                        "id": "be10e0c482ad31bc648846f91dd863a0",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "description": {
+                        "id": "5a9ee413e2108311e05fe0b31bd33812",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "useCache": {
+                        "checked": true,
+                        "id": "be0d7d1aef54d5e74314b84a597fb6f5",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "showLoader": {
+                        "id": "dfbaf08d7db6f7df4b7f2da41f47c44c",
+                        "render": "item",
+                        "values": [
+                            {
+                                "value": "always"
+                            }
+                        ]
+                    },
+                    "hideHandle": {
+                        "checked": false,
+                        "id": "b669cb2035fb91e3579ac7ac6552d87d",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "widgetMenu": {
+                        "checked": true,
+                        "id": "c7fb143fbe2d1091fbd8dc859b0d0351",
+                        "render": "group",
+                        "values": [
+                            {
+                                "widgetMenuDisplayMode": {
+                                    "id": "5aade7f59726c20e688de15d98ececd2",
+                                    "render": "item",
+                                    "values": [
+                                        {
+                                            "value": "hover"
+                                        }
+                                    ]
+                                },
+                                "widgetMenuDirection": {
+                                    "id": "b0dc88e9a8d64a3c264992ddd57c151b",
+                                    "render": "item",
+                                    "values": [
+                                        {
+                                            "value": "inside"
+                                        }
+                                    ]
+                                },
+                                "widgetMenuPosition": {
+                                    "id": "f8433b8bb655ce51f246674936b1d3f9",
+                                    "render": "item",
+                                    "values": [
+                                        {
+                                            "value": "topright"
+                                        }
+                                    ]
+                                },
+                                "widgetMenuItems": {
+                                    "id": "d5ce7b5e32b678d5c3cdfb3a187dd983",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "widgetMenuItemTitle": {
+                                                "checked": true,
+                                                "id": "b6e15b682f9b370343af6a0561a63086",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "widgetMenuItemRefresh": {
+                                                "checked": true,
+                                                "id": "512c22c65e90d08e3eaec2bbbfe203e1",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "widgetMenuItemFullscreen": {
+                                                "checked": true,
+                                                "id": "fa0276665e2cbacbdbfc0ad7643ba7bd",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "widgetMenuItemExport": {
+                                                "checked": false,
+                                                "id": "be2da0e0cbf0483ca0b37f8cd8b2a7ae",
+                                                "render": "group",
+                                                "values": [
+                                                    {
+                                                        "widgetMenuItemExportFileName": {
+                                                            "id": "6354c978d3f01584895706b5c824dab6",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {}
+                                                            ]
+                                                        },
+                                                        "widgetMenuItemExportExcel": {
+                                                            "checked": true,
+                                                            "id": "bbd42b43373ed4b7c258006cd17ebe29",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {}
+                                                            ]
+                                                        },
+                                                        "widgetMenuItemExportCSV": {
+                                                            "checked": true,
+                                                            "id": "f62c9d6c0217d819c898ea45bf27987d",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {}
+                                                            ]
+                                                        },
+                                                        "widgetMenuItemExportJson": {
+                                                            "checked": true,
+                                                            "id": "d0e3fda36ad6fd39fafb852cbbb624f5",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {}
+                                                            ]
+                                                        },
+                                                        "widgetMenuItemExportImage": {
+                                                            "checked": true,
+                                                            "id": "dbf74dab92a9d970e5f16ee55cedc935",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {}
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "name": "Кнопка экспорта данных"
+                                            }
+                                        }
+                                    ],
+                                    "name": "Элементы меню"
+                                }
+                            }
+                        ],
+                        "name": "Отображать меню виджета"
+                    },
+                    "hideDrillDownPanel": {
+                        "checked": false,
+                        "id": "30cf950f211148c8d20f60349df495bb",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "useGroupOperations": {
+                        "checked": true,
+                        "id": "49aed7fbf318c0445ea380a621d99238",
+                        "render": null,
+                        "values": []
+                    },
+                    "displayCondition": {
+                        "checked": false,
+                        "id": "e1aeb436575e048f31518101575616d1",
+                        "render": "group",
+                        "values": [
+                            {
+                                "displayConditionSource": {
+                                    "id": "c32eb0a69250e34797f767ad93c864d5",
+                                    "render": "sourceBinding",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "displayConditionVariables": {
+                                    "id": "1216bb4b40d9d2d85d92bc75ba2a1c77",
+                                    "render": "group",
+                                    "values": [],
+                                    "name": "Переменные"
+                                },
+                                "displayConditionExpression": {
+                                    "id": "f682891392b5f595cee1016a515ed557",
+                                    "render": "item",
+                                    "values": [
+                                        {
+                                            "value": "/* Свободное выражение, например myVar1 > 0 */\ntrue"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "name": "Отображать при условии"
+                    },
+                    "maxSize": {
+                        "id": "ef6cc7816745923bd0de3049fd47bdb6",
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 5000
+                            }
+                        ]
+                    }
+                }
+            ],
+            "name": "Разное"
+        },
+        "source": {
+            "id": "27564493fb9f7b6d9dd0ee0a76a03273",
+            "render": "sourceBinding",
+            "values": [
+                {
+                    "binding": {
+                        "type": "array",
+                        "source": "ca1153557d2742b210542107a7266183",
+                        "item": {
+                            "type": "object",
+                            "fields": {
+                                "disease_class": {
+                                    "field": "disease_class",
+                                    "type": "string",
+                                    "path": []
+                                },
+                                "year": {
+                                    "field": "year",
+                                    "type": "integer",
+                                    "path": []
+                                },
+                                "cases_total": {
+                                    "field": "cases_total",
+                                    "type": "number",
+                                    "path": []
+                                }
+                            }
+                        },
+                        "workspaceId": "ff39b03eb6fb0b9f34272be9c8a78063",
+                        "cubeFields": {},
+                        "params": {}
+                    }
+                }
+            ]
+        },
+        "filters": {
+            "id": "0bd9f2b63be9212404066fd193a08e8c",
+            "render": "group",
+            "values": [],
+            "name": "Глобальная фильтрация"
+        },
+        "groupFilterFields": {
+            "checked": false,
+            "id": "35c41ae469800e740191ae7bf9dd0f78",
+            "render": "group",
+            "values": [],
+            "name": "Фильтрующие поля (группа)"
+        },
+        "xAxis": {
+            "id": "cab58de4cedab4c50603d9ce5277cf6e",
+            "render": "group",
+            "values": [
+                {
+                    "item": {
+                        "id": "c140e5ae7a36a56363353c5019801688",
+                        "render": "group",
+                        "name": "Ось X",
+                        "values": [
+                            {
+                                "categories": {
+                                    "id": "14915ac2461ef06750428a3d255fcf3d",
+                                    "render": "dataBinding",
+                                    "values": [
+                                        {
+                                            "value": "year",
+                                            "binding": "year",
+                                            "bindingType": "integer",
+                                            "bindingInfo": {
+                                                "field": "year",
+                                                "type": "integer",
+                                                "path": [],
+                                                "used": true
+                                            }
+                                        }
+                                    ],
+                                    "linkTo": "source"
+                                },
+                                "labels": {
+                                    "id": "2f9fdc6b78ba7095ec3e4ff5fdac2560",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "enabled": {
+                                                "checked": true,
+                                                "id": "f2ba8f5fca268e8433e06d9d590d5e45",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "align": {
+                                                "id": "95362b518e4a7864e35c59748a078ff8",
+                                                "render": "item",
+                                                "values": [
+                                                    {
+                                                        "value": "center"
+                                                    }
+                                                ]
+                                            },
+                                            "rotation": {
+                                                "id": "c4f74472c2e39bfa911370f14731be09",
+                                                "defaultValue": 0,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "step": {
+                                                "id": "9831d9d0359080f563754d16757ea6f0",
+                                                "defaultValue": 0,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "format": {
+                                                "id": "086c5c08df86eb012d9e187b6eb83328",
+                                                "defaultValue": "{value}",
+                                                "render": "formatter",
+                                                "valueType": "string",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "fontColor": {
+                                                "id": "e43bd6a9fc5fad4e1f9fd94ecba1a8dd",
+                                                "defaultValue": "#666666",
+                                                "render": "item",
+                                                "valueType": "string",
+                                                "values": [
+                                                    {
+                                                        "value": "#666666"
+                                                    }
+                                                ]
+                                            },
+                                            "fontSize": {
+                                                "id": "1f3447ce56d645d3289db0106a167a2e",
+                                                "defaultValue": 11,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 11
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "name": "Подписи"
+                                },
+                                "title": {
+                                    "id": "2e373c6456173b37e7f501b1ee68f110",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "text": {
+                                                "id": "f0b85069966b0524cea3010ff88b0e61",
+                                                "render": "item",
+                                                "valueType": "string",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "align": {
+                                                "id": "69154b492397d853533dd4c1b23d448e",
+                                                "render": "select",
+                                                "values": [
+                                                    {
+                                                        "items": {},
+                                                        "value": "low"
+                                                    }
+                                                ]
+                                            },
+                                            "rotation": {
+                                                "id": "7e794b5c5107d0005bf60c866f6b5813",
+                                                "defaultValue": 0,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "offset": {
+                                                "checked": false,
+                                                "id": "313b118e28b395bc679d976279e1a6e0",
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "color": {
+                                                "id": "eac2be23a9d2e8a73ea9ab52613a57a9",
+                                                "defaultValue": "#666666",
+                                                "render": "item",
+                                                "valueType": "string",
+                                                "values": [
+                                                    {
+                                                        "value": "#666666"
+                                                    }
+                                                ]
+                                            },
+                                            "x": {
+                                                "id": "d1f18fa4504ba50f35404fad68143212",
+                                                "defaultValue": 0,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "y": {
+                                                "id": "4d1374f39dec2d6f474c7b25e78520c1",
+                                                "defaultValue": 0,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "name": "Заголовок оси"
+                                },
+                                "alternateGridColor": {
+                                    "id": "1a4e83799e6355d39787f66ec1e09e59",
+                                    "render": "item",
+                                    "valueType": "string",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "crosshair": {
+                                    "checked": false,
+                                    "id": "a798a2829eff32a61a9b74883dad8e50",
+                                    "render": "item",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "lineColor": {
+                                    "id": "932ffcb993326bd7773991abe1f342b4",
+                                    "defaultValue": "#ccd6eb",
+                                    "render": "item",
+                                    "valueType": "string",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "lineWidth": {
+                                    "id": "7d9908c5ded3f5746437a9dc2cbdafc7",
+                                    "defaultValue": 1,
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "offset": {
+                                    "id": "96243a127f324e950db8b8223ceb0e8c",
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "opposite": {
+                                    "checked": false,
+                                    "id": "8aecaab3cbdea7be4a50af5ec83c6f31",
+                                    "render": "item",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "reversed": {
+                                    "checked": false,
+                                    "id": "c5654f7448399194a932fdccf6aafc5b",
+                                    "render": "item",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "gridLineColor": {
+                                    "id": "1c6787073ed41506a25d2c24fbfcf05b",
+                                    "defaultValue": "#e6e6e6",
+                                    "render": "item",
+                                    "valueType": "string",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "gridLineDashStyle": {
+                                    "id": "64c315561f8355cb71d2c96088a87d47",
+                                    "render": "select",
+                                    "values": [
+                                        {
+                                            "items": {},
+                                            "value": "Solid"
+                                        }
+                                    ]
+                                },
+                                "gridLineWidth": {
+                                    "id": "8953dc01d940204f66cb14266af028f1",
+                                    "defaultValue": 0,
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {
+                                            "value": 0
+                                        }
+                                    ]
+                                },
+                                "minX": {
+                                    "id": "139be0f3a8ca0400aff412d5f9475dca",
+                                    "render": "dataBinding",
+                                    "valueType": "number",
+                                    "values": [
+                                        {}
+                                    ],
+                                    "linkTo": "source"
+                                },
+                                "maxX": {
+                                    "id": "4ddd7429150edafeedaf0b3a1efb31a2",
+                                    "render": "dataBinding",
+                                    "valueType": "number",
+                                    "values": [
+                                        {}
+                                    ],
+                                    "linkTo": "source"
+                                },
+                                "tickInterval": {
+                                    "id": "67c685911252e03013548ae22420a350",
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {
+                                            "value": 100
+                                        }
+                                    ]
+                                },
+                                "tickColor": {
+                                    "id": "46897c138522b4bc607b711989c3d040",
+                                    "defaultValue": "#ccd6eb",
+                                    "render": "item",
+                                    "valueType": "string",
+                                    "values": [
+                                        {}
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "name": "Оси Х"
+        },
+        "yAxis": {
+            "id": "e98e1ebf9e03f5e97b43ab83935ae2dc",
+            "render": "group",
+            "values": [
+                {
+                    "item": {
+                        "id": "8ca1611bc6e94459f4aa96615683bae5",
+                        "render": "group",
+                        "name": "Ось Y",
+                        "values": [
+                            {
+                                "type": {
+                                    "id": "f09d239a1b73ddb3bfd8317769f990a7",
+                                    "render": "select",
+                                    "values": [
+                                        {
+                                            "items": {},
+                                            "value": "linear"
+                                        }
+                                    ]
+                                },
+                                "labels": {
+                                    "id": "73ab3930a4e829aa657b9a968cdd1415",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "enabled": {
+                                                "checked": true,
+                                                "id": "e1f1430fd2fcdb6dfc207ec7df32c8c7",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "rotation": {
+                                                "id": "27d9338cea5488732e98732384ad9fdd",
+                                                "defaultValue": 0,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "step": {
+                                                "id": "4ecc891a61d0d5b4d9546644cabc10c9",
+                                                "defaultValue": 0,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "format": {
+                                                "id": "6d7c927d679e9c4007d39b612ad931f6",
+                                                "defaultValue": "{value:,.0f}",
+                                                "render": "formatter",
+                                                "valueType": "string",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "fontColor": {
+                                                "id": "74a94d0b0707a63f5b08e00bc21f925b",
+                                                "defaultValue": "#666666",
+                                                "render": "item",
+                                                "valueType": "string",
+                                                "values": [
+                                                    {
+                                                        "value": "#666666"
+                                                    }
+                                                ]
+                                            },
+                                            "fontSize": {
+                                                "id": "0173ae25a808e54d21cfed921724d4ea",
+                                                "defaultValue": 11,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 11
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "name": "Подписи"
+                                },
+                                "title": {
+                                    "id": "9e2a68c7e1b04345ac5c2706470e4ee9",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "text": {
+                                                "id": "1aa3803dd8386e66a3b724e7f3002a30",
+                                                "render": "item",
+                                                "valueType": "string",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "align": {
+                                                "id": "e51039079fea41e16e33bf6e86b1cc43",
+                                                "defaultValue": "middle",
+                                                "render": "select",
+                                                "values": [
+                                                    {
+                                                        "items": {},
+                                                        "value": "high"
+                                                    }
+                                                ]
+                                            },
+                                            "rotation": {
+                                                "id": "8c6138d35dc6abc9e9f08883b1608356",
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": -90
+                                                    }
+                                                ]
+                                            },
+                                            "offset": {
+                                                "checked": false,
+                                                "id": "d524e6a31eee316d065fe64f29faba39",
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "color": {
+                                                "id": "09eb5c129fd3730905c83f79178c341c",
+                                                "defaultValue": "#666666",
+                                                "render": "item",
+                                                "valueType": "string",
+                                                "values": [
+                                                    {
+                                                        "value": "#666666"
+                                                    }
+                                                ]
+                                            },
+                                            "x": {
+                                                "id": "703478c77c274fea6fd7ea05b6f81143",
+                                                "defaultValue": 0,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "y": {
+                                                "id": "0ad7e8fe80978becfe2bcdd316ee9d98",
+                                                "defaultValue": 0,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "name": "Заголовок оси"
+                                },
+                                "pane": {
+                                    "id": "12fa3041174017610be8ebc603272a21",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "paneHeight": {
+                                                "id": "d084093b07f45a5551523a8f77e8725b",
+                                                "defaultValue": "100%",
+                                                "render": "item",
+                                                "valueType": "string",
+                                                "values": [
+                                                    {
+                                                        "value": "100%"
+                                                    }
+                                                ]
+                                            },
+                                            "paneTop": {
+                                                "id": "bb18abbb05372442f4668a1c36c44e7b",
+                                                "defaultValue": "0%",
+                                                "render": "item",
+                                                "valueType": "string",
+                                                "values": [
+                                                    {
+                                                        "value": "0%"
+                                                    }
+                                                ]
+                                            },
+                                            "paneResize": {
+                                                "checked": false,
+                                                "id": "0c8fc9ccbf0a211d37795ea655a7b38f",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "name": "Расположение панели"
+                                },
+                                "alternateGridColor": {
+                                    "id": "2e0155017472f4ca4edff46be11e4286",
+                                    "render": "item",
+                                    "valueType": "string",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "crosshair": {
+                                    "checked": false,
+                                    "id": "a8425cd63cc75dfa268edd08eaefe71b",
+                                    "render": "item",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "lineColor": {
+                                    "id": "80f2974281cb016320cde7739de747a4",
+                                    "defaultValue": "#ccd6eb",
+                                    "render": "item",
+                                    "valueType": "string",
+                                    "values": [
+                                        {
+                                            "value": "#ccd6eb"
+                                        }
+                                    ]
+                                },
+                                "lineWidth": {
+                                    "id": "2d076463637abe6316e243a42ff506c4",
+                                    "defaultValue": 1,
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                "offset": {
+                                    "id": "81e15e52fea9ae0624c712d2cb881806",
+                                    "defaultValue": 0,
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {
+                                            "value": 0
+                                        }
+                                    ]
+                                },
+                                "opposite": {
+                                    "checked": false,
+                                    "id": "4ddcc620cf632d6c08e0d566c92ba852",
+                                    "render": "item",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "reversed": {
+                                    "checked": false,
+                                    "id": "816e5eeba80c949b20b66784d2715b51",
+                                    "render": "item",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "gridLineColor": {
+                                    "id": "11c28825f6487aac4bb97d3dc715dead",
+                                    "defaultValue": "#e6e6e6",
+                                    "render": "item",
+                                    "valueType": "string",
+                                    "values": [
+                                        {
+                                            "value": "#e6e6e6"
+                                        }
+                                    ]
+                                },
+                                "gridLineDashStyle": {
+                                    "id": "fdd8a7f14ea3a8613d02cf677d6d143a",
+                                    "render": "select",
+                                    "values": [
+                                        {
+                                            "items": {},
+                                            "value": "Solid"
+                                        }
+                                    ]
+                                },
+                                "gridLineWidth": {
+                                    "id": "1f2f36b278041a1e051b6a17b7185402",
+                                    "defaultValue": 1,
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                "minY": {
+                                    "id": "aeebfcb26fdcb248dcc8cdbce2f38730",
+                                    "render": "dataBinding",
+                                    "valueType": "number",
+                                    "values": [
+                                        {}
+                                    ],
+                                    "linkTo": "source"
+                                },
+                                "maxY": {
+                                    "id": "a88552f4201d7d0479ddd3e785511ce6",
+                                    "render": "dataBinding",
+                                    "valueType": "number",
+                                    "values": [
+                                        {}
+                                    ],
+                                    "linkTo": "source"
+                                },
+                                "startOnTick": {
+                                    "checked": true,
+                                    "id": "72f77829bff7a65b770b88ab5f7719f5",
+                                    "render": "item",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "tickInterval": {
+                                    "id": "797b4ac5185283c797ba69a9af61c476",
+                                    "defaultValue": 72,
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {
+                                            "value": 72
+                                        }
+                                    ]
+                                },
+                                "tickAmount": {
+                                    "id": "9cbdf9402515521bf0e6bbc020bfac49",
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {}
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "name": "Оси Y"
+        },
+        "series": {
+            "id": "2264d812a351e3e7f8bc1375c230e984",
+            "render": "autocompleteGroup",
+            "values": [
+                {
+                    "seriesItem": {
+                        "values": [
+                            {
+                                "seriesName": {
+                                    "values": [
+                                        {
+                                            "value": "year"
+                                        }
+                                    ],
+                                    "id": "21c5392478077b858755e94a55f7cd88",
+                                    "render": "namesBinding",
+                                    "linkTo": "source"
+                                },
+                                "startPoint": {},
+                                "endPoint": {},
+                                "value": {},
+                                "name": {
+                                    "values": [
+                                        {
+                                            "value": "disease_class",
+                                            "binding": "disease_class",
+                                            "bindingType": "string",
+                                            "bindingInfo": {
+                                                "field": "disease_class",
+                                                "type": "string",
+                                                "path": [],
+                                                "used": true
+                                            }
+                                        }
+                                    ],
+                                    "id": "d2b6670bc0b6574269c3b8c66c331f4e",
+                                    "render": "dataBinding",
+                                    "linkTo": "source"
+                                },
+                                "data": {
+                                    "values": [
+                                        {
+                                            "value": "cases_total",
+                                            "binding": "cases_total",
+                                            "bindingType": "number",
+                                            "bindingInfo": {
+                                                "field": "cases_total",
+                                                "type": "number",
+                                                "path": [],
+                                                "used": true
+                                            }
+                                        }
+                                    ],
+                                    "id": "51c90d32b25c4d595d18f3e13e3a00dc",
+                                    "render": "dataBinding",
+                                    "linkTo": "source"
+                                },
+                                "date": {},
+                                "visible": {
+                                    "checked": true,
+                                    "values": [
+                                        {}
+                                    ],
+                                    "id": "2d7268777e440453aa039d01151cd19e",
+                                    "render": "item"
+                                },
+                                "allowPointSelect": {
+                                    "values": [
+                                        {
+                                            "filtration": {
+                                                "checked": true,
+                                                "values": [
+                                                    {}
+                                                ],
+                                                "id": "7186423344c372c5b10bcb4a0fa33fd0",
+                                                "render": "item"
+                                            },
+                                            "drilldown": {
+                                                "checked": false,
+                                                "values": [],
+                                                "id": "bc76a91b1c5ac448c33791152b743b9b",
+                                                "render": "switch"
+                                            },
+                                            "clickToolbarAction": {
+                                                "checked": false,
+                                                "values": [
+                                                    {}
+                                                ],
+                                                "id": "7966fb543c0cd4b63e2bf15523214bea",
+                                                "render": "select"
+                                            }
+                                        }
+                                    ],
+                                    "id": "048cb8d871dba5314b448cb5e3c7ff61",
+                                    "render": "group",
+                                    "name": "Действия при клике"
+                                },
+                                "onHover": {
+                                    "values": [
+                                        {
+                                            "showToolTip": {
+                                                "checked": false,
+                                                "values": [],
+                                                "id": "5d2804b653b4ac2b695122e8dd44e77f",
+                                                "render": "switch"
+                                            },
+                                            "hoverToolbarAction": {
+                                                "checked": false,
+                                                "values": [
+                                                    {}
+                                                ],
+                                                "id": "418aadb0b834418b2563171fe430ab45",
+                                                "render": "select"
+                                            }
+                                        }
+                                    ],
+                                    "id": "701eca7162e0f7b2e405a0c5b51c51be",
+                                    "render": "group",
+                                    "name": "Действия при наведении"
+                                },
+                                "tooltip": {
+                                    "values": [
+                                        {
+                                            "hideSerieTooltip": {
+                                                "checked": false,
+                                                "values": [
+                                                    {}
+                                                ],
+                                                "id": "fd9bb1d198fa0044a6ad5f53860e86dd",
+                                                "render": "item"
+                                            },
+                                            "pointFormat": {
+                                                "values": [
+                                                    {}
+                                                ],
+                                                "id": "796fd96ec0aede9d7109505d4f13d269",
+                                                "render": "formatter"
+                                            },
+                                            "headerFormat": {
+                                                "values": [
+                                                    {}
+                                                ],
+                                                "id": "190e0f8eb560486e3ab40774846400cd",
+                                                "render": "formatter"
+                                            }
+                                        }
+                                    ],
+                                    "id": "2af566653db9928652e4c6d59c855cc9",
+                                    "render": "group",
+                                    "name": "Всплывающая подсказка"
+                                },
+                                "dataLabels": {
+                                    "values": [
+                                        {
+                                            "format": {
+                                                "values": [
+                                                    {}
+                                                ],
+                                                "id": "21cdad774eefb46f9b59a049be34c7a6",
+                                                "render": "formatter"
+                                            }
+                                        }
+                                    ],
+                                    "id": "bdf79ee61fc598286363735d3ee67983",
+                                    "render": "group",
+                                    "name": "Подписи"
+                                },
+                                "type": {
+                                    "values": [
+                                        {
+                                            "value": "line",
+                                            "items": {
+                                                "lineWidth": {
+                                                    "values": [
+                                                        {
+                                                            "value": 2
+                                                        }
+                                                    ],
+                                                    "id": "1d16ace95d6e21bf0f2040aab2489396",
+                                                    "render": "item",
+                                                    "defaultValue": 2,
+                                                    "valueType": "number"
+                                                },
+                                                "lineType": {
+                                                    "values": [
+                                                        {
+                                                            "value": "solid"
+                                                        }
+                                                    ],
+                                                    "id": "cc799f8e64e74a9240a38def7ebf7d0a",
+                                                    "render": "item"
+                                                },
+                                                "markers": {
+                                                    "values": [
+                                                        {
+                                                            "value": "markersAuto"
+                                                        }
+                                                    ],
+                                                    "id": "32f533df222f2a7ec73b0b3a0b84660b",
+                                                    "render": "select"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "id": "f878eb5a8844d76ce6ab38e1907f504f",
+                                    "render": "select"
+                                },
+                                "colorType": {
+                                    "values": [
+                                        {
+                                            "value": "manualColor",
+                                            "items": {
+                                                "manualColorValue": {
+                                                    "values": [
+                                                        {}
+                                                    ],
+                                                    "id": "13a31ad7ce43ba1d4f544f6f584d2321",
+                                                    "render": "item"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "id": "106f16ea897d028b343cf73b14a4a14e",
+                                    "render": "select"
+                                },
+                                "stack": {
+                                    "values": [
+                                        {}
+                                    ],
+                                    "id": "9fbd5d6d01f970478f0e46a998c9c2df",
+                                    "render": "item",
+                                    "valueType": "string"
+                                },
+                                "step": {
+                                    "values": [
+                                        {
+                                            "value": "none"
+                                        }
+                                    ],
+                                    "id": "72b69c5f2790d43231d0d4980cec0435",
+                                    "render": "select"
+                                },
+                                "yAxis": {
+                                    "values": [
+                                        {
+                                            "value": "Ось Y"
+                                        }
+                                    ],
+                                    "id": "a881e59ff6e4f55b9d5493c2f1cded53",
+                                    "render": "select"
+                                }
+                            }
+                        ],
+                        "id": "a8fd1428eb4349006de1997fc8c228a9",
+                        "render": "group",
+                        "name": "year"
+                    }
+                },
+                {
+                    "seriesItem": {
+                        "values": [
+                            {
+                                "seriesName": {
+                                    "values": [
+                                        {
+                                            "value": ""
+                                        }
+                                    ],
+                                    "id": "a1e889d432095ceda1f4bd58287da34b",
+                                    "render": "namesBinding",
+                                    "linkTo": "source"
+                                },
+                                "startPoint": {},
+                                "endPoint": {},
+                                "value": {},
+                                "name": {
+                                    "values": [
+                                        {
+                                            "value": "disease_class",
+                                            "binding": "disease_class",
+                                            "bindingType": "string",
+                                            "bindingInfo": {
+                                                "field": "disease_class",
+                                                "type": "string",
+                                                "path": [],
+                                                "used": true
+                                            }
+                                        }
+                                    ],
+                                    "id": "d49b25bb47b2e22cb7d7bbf32cb0fa6c",
+                                    "render": "dataBinding",
+                                    "linkTo": "source"
+                                },
+                                "data": {
+                                    "values": [
+                                        {
+                                            "value": "cases_total",
+                                            "binding": "cases_total",
+                                            "bindingType": "number",
+                                            "bindingInfo": {
+                                                "field": "cases_total",
+                                                "type": "number",
+                                                "path": [],
+                                                "used": true
+                                            }
+                                        }
+                                    ],
+                                    "id": "14a96a3f35ebb1515c8be044316c3a35",
+                                    "render": "dataBinding",
+                                    "linkTo": "source"
+                                },
+                                "date": {},
+                                "visible": {
+                                    "checked": true,
+                                    "values": [
+                                        {}
+                                    ],
+                                    "id": "621532c03edfedf2f5592c9771df2050",
+                                    "render": "item"
+                                },
+                                "allowPointSelect": {
+                                    "values": [
+                                        {
+                                            "filtration": {
+                                                "checked": true,
+                                                "values": [
+                                                    {}
+                                                ],
+                                                "id": "badab1806b29b69984e4bac2121f662a",
+                                                "render": "item"
+                                            },
+                                            "drilldown": {
+                                                "checked": false,
+                                                "values": [],
+                                                "id": "23e9e927d93e28e0457a4665a5c97970",
+                                                "render": "switch"
+                                            },
+                                            "clickToolbarAction": {
+                                                "checked": false,
+                                                "values": [
+                                                    {}
+                                                ],
+                                                "id": "14ce389eaf3eb50681078ae7f4e38869",
+                                                "render": "select"
+                                            }
+                                        }
+                                    ],
+                                    "id": "77ae18a0eeeae35707e2db5a4789552d",
+                                    "render": "group",
+                                    "name": "Действия при клике"
+                                },
+                                "onHover": {
+                                    "values": [
+                                        {
+                                            "showToolTip": {
+                                                "checked": false,
+                                                "values": [],
+                                                "id": "9b8c662512b25d32a23cf3e62e100663",
+                                                "render": "switch"
+                                            },
+                                            "hoverToolbarAction": {
+                                                "checked": false,
+                                                "values": [
+                                                    {}
+                                                ],
+                                                "id": "198154e6388a0961f7692670ad45c291",
+                                                "render": "select"
+                                            }
+                                        }
+                                    ],
+                                    "id": "b43237c77722d80e374ead94fc32ce8b",
+                                    "render": "group",
+                                    "name": "Действия при наведении"
+                                },
+                                "tooltip": {
+                                    "values": [
+                                        {
+                                            "hideSerieTooltip": {
+                                                "checked": false,
+                                                "values": [
+                                                    {}
+                                                ],
+                                                "id": "6c9389d5b327d2017c445dbddb401396",
+                                                "render": "item"
+                                            },
+                                            "pointFormat": {
+                                                "values": [
+                                                    {}
+                                                ],
+                                                "id": "f003135c241683709a0603fb8a11304c",
+                                                "render": "formatter"
+                                            },
+                                            "headerFormat": {
+                                                "values": [
+                                                    {}
+                                                ],
+                                                "id": "51b6b4d4c82eeda8685fc88b87f237af",
+                                                "render": "formatter"
+                                            }
+                                        }
+                                    ],
+                                    "id": "278d0cd35f2bea598218a7d06b3c9fc0",
+                                    "render": "group",
+                                    "name": "Всплывающая подсказка"
+                                },
+                                "dataLabels": {
+                                    "values": [
+                                        {
+                                            "format": {
+                                                "values": [
+                                                    {}
+                                                ],
+                                                "id": "efd4ca3f86dcf6f52b85cf0e9ed0c9dd",
+                                                "render": "formatter"
+                                            }
+                                        }
+                                    ],
+                                    "id": "02c4f8703df7a672b3f17e87d566f6e6",
+                                    "render": "group",
+                                    "name": "Подписи"
+                                },
+                                "type": {
+                                    "values": [
+                                        {
+                                            "value": "line",
+                                            "items": {
+                                                "lineWidth": {
+                                                    "values": [
+                                                        {
+                                                            "value": 2
+                                                        }
+                                                    ],
+                                                    "id": "0201ea49d3435e049fd855bace5d8cfb",
+                                                    "render": "item",
+                                                    "defaultValue": 2,
+                                                    "valueType": "number"
+                                                },
+                                                "lineType": {
+                                                    "values": [
+                                                        {
+                                                            "value": "solid"
+                                                        }
+                                                    ],
+                                                    "id": "04db8471425cd8e04fd9aa30d0f6dfe8",
+                                                    "render": "item"
+                                                },
+                                                "markers": {
+                                                    "values": [
+                                                        {
+                                                            "value": "markersAuto"
+                                                        }
+                                                    ],
+                                                    "id": "f4a030fa75baac0d450b729a9f63b906",
+                                                    "render": "select"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "id": "482f87794543165d637c578ef61bf6ee",
+                                    "render": "select"
+                                },
+                                "colorType": {
+                                    "values": [
+                                        {
+                                            "value": "manualColor",
+                                            "items": {
+                                                "manualColorValue": {
+                                                    "values": [
+                                                        {}
+                                                    ],
+                                                    "id": "fb02b667114186bb0a2ddf2c9904269e",
+                                                    "render": "item"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "id": "fce037287c0096ca9ccea8bc986088c4",
+                                    "render": "select"
+                                },
+                                "stack": {
+                                    "values": [
+                                        {}
+                                    ],
+                                    "id": "f963b98984f5f5917d5d664c9716a91a",
+                                    "render": "item",
+                                    "valueType": "string"
+                                },
+                                "step": {
+                                    "values": [
+                                        {
+                                            "value": "none"
+                                        }
+                                    ],
+                                    "id": "6b9c7393da295e695d12085645bbc92d",
+                                    "render": "select"
+                                },
+                                "yAxis": {
+                                    "values": [
+                                        {
+                                            "value": "Ось Y"
+                                        }
+                                    ],
+                                    "id": "4c9b68559a8ab43148f8638ca2546920",
+                                    "render": "select"
+                                }
+                            }
+                        ],
+                        "id": "6e97a0ef81492dc9b31582b84dc0b57d",
+                        "render": "group",
+                        "name": "Серия"
+                    }
+                }
+            ],
+            "linkTo": "source",
+            "name": "Серии"
+        },
+        "credits": {
+            "id": "57a6b171fd99849fd32a5b144d210483",
+            "render": "group",
+            "values": [
+                {
+                    "enabled": {
+                        "checked": false,
+                        "id": "2d6b642eb9cacb58e26d71ab7a26133e",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "text": {
+                        "id": "4212cf378a70ca427dc883e5cb1b8f18",
+                        "render": "item",
+                        "valueType": "string",
+                        "values": [
+                            {
+                                "value": "Highcharts.com"
+                            }
+                        ]
+                    },
+                    "href": {
+                        "id": "8b99abd6b0b972aa84889b335842c4ee",
+                        "render": "item",
+                        "valueType": "string",
+                        "values": [
+                            {
+                                "value": "http://www.highcharts.com"
+                            }
+                        ]
+                    },
+                    "fontColor": {
+                        "id": "3077d4ea6310dda2c5feedf7562583cb",
+                        "defaultValue": "#999999",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "fontSize": {
+                        "id": "80f10c4358845115967ace4d14bb308c",
+                        "defaultValue": 9,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 9
+                            }
+                        ]
+                    },
+                    "align": {
+                        "id": "39ff0f2631eae230da4b288350d23f61",
+                        "render": "select",
+                        "values": [
+                            {
+                                "items": {},
+                                "value": "right"
+                            }
+                        ]
+                    },
+                    "verticalAlign": {
+                        "id": "7aa40ae9b9ccd6390fc2c22af0b65435",
+                        "render": "select",
+                        "values": [
+                            {
+                                "items": {},
+                                "value": "bottom"
+                            }
+                        ]
+                    },
+                    "x": {
+                        "id": "14dcc2c3341622ce213aaad485288af6",
+                        "defaultValue": -10,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": -10
+                            }
+                        ]
+                    },
+                    "y": {
+                        "id": "2300f7b43686ae7a08238f6e2790a8c9",
+                        "defaultValue": -5,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": -5
+                            }
+                        ]
+                    }
+                }
+            ],
+            "name": "Авторская подпись"
+        },
+        "mainTooltip": {
+            "id": "0ab8e396c2e532b98a13e1488e74371b",
+            "render": "group",
+            "values": [
+                {
+                    "enabled": {
+                        "checked": true,
+                        "id": "5667d8509c03e06098d701b47137c994",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "backgroundColor": {
+                        "id": "0e27542f0e7227621e8ce3559418eff9",
+                        "defaultValue": "#f8f8f8",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "borderColor": {
+                        "id": "793d1c64a60b43003ebdd20c157794e7",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "color": {
+                        "id": "71192ea089346b57557d5288d55fca77",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "borderRadius": {
+                        "id": "aed99adc72ebcd583d904a81104f45c2",
+                        "defaultValue": 3,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 3
+                            }
+                        ]
+                    },
+                    "borderWidth": {
+                        "id": "bc4d963d8492aa20a68fe28b86500a54",
+                        "defaultValue": 1,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 1
+                            }
+                        ]
+                    },
+                    "distance": {
+                        "id": "717f582468863eb48416d299c7430671",
+                        "defaultValue": 16,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 16
+                            }
+                        ]
+                    },
+                    "pointFormat": {
+                        "id": "27c2925d7e735524def10a207d7ea151",
+                        "render": "formatter",
+                        "valueType": "string",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "headerFormat": {
+                        "id": "0b46956f0a6ca00f9153e4d8cfaa7c30",
+                        "render": "formatter",
+                        "valueType": "string",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "nodeFormat": {
+                        "id": "3429721c9fcf418bb70a5d2b32dde74e",
+                        "values": []
+                    },
+                    "padding": {
+                        "id": "7014a8f540e41e75dabbed414606cbcc",
+                        "defaultValue": 8,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 8
+                            }
+                        ]
+                    },
+                    "shadow": {
+                        "checked": true,
+                        "id": "e5573920ec44df1f29260fb08f900b6f",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "shared": {
+                        "checked": true,
+                        "id": "f88b1f379105be66336390d736529748",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    }
+                }
+            ],
+            "name": "Всплывающая подсказка"
+        },
+        "header": {
+            "id": "1db89557a2a7882c092f21d40ebebe3c",
+            "render": "group",
+            "values": [
+                {
+                    "text": {
+                        "id": "7dfda543c5c76834b435de2295557479",
+                        "defaultValue": "",
+                        "render": "item",
+                        "valueType": "string",
+                        "values": [
+                            {
+                                "value": "Заболеваемость населения по основным классам болезней"
+                            }
+                        ]
+                    },
+                    "align": {
+                        "id": "9ac0ddbd4e956a665d5cb4e0af6294c2",
+                        "render": "select",
+                        "values": [
+                            {
+                                "items": {},
+                                "value": "center"
+                            }
+                        ]
+                    },
+                    "verticalAlign": {
+                        "id": "575d3bf28a0fcd6da51fe6b04af35cae",
+                        "render": "select",
+                        "values": [
+                            {
+                                "items": {},
+                                "value": "none"
+                            }
+                        ]
+                    },
+                    "floating": {
+                        "checked": false,
+                        "id": "125d9a1a0b0388c9f7e00946371ea4ba",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "margin": {
+                        "id": "b730342c73cba735e7474195cd829550",
+                        "defaultValue": 15,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 15
+                            }
+                        ]
+                    },
+                    "fontColor": {
+                        "id": "f16a13c675d7567bd1a1a59f4610d9a5",
+                        "defaultValue": "#333333",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "fontSize": {
+                        "id": "ea83742bfffacdab603ff6eece199182",
+                        "defaultValue": 18,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 18
+                            }
+                        ]
+                    },
+                    "fontWeight": {
+                        "id": "3b1f6f6dd4736aaea5e626adbb9d82f0",
+                        "defaultValue": "normal",
+                        "render": "item",
+                        "valueType": "string",
+                        "values": [
+                            {
+                                "value": "normal"
+                            }
+                        ]
+                    },
+                    "x": {
+                        "id": "f8d785baffc5a84ce633546575e24cc6",
+                        "defaultValue": 0,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 0
+                            }
+                        ]
+                    },
+                    "y": {
+                        "id": "0985cfcce949cd834f0e3860ec499b1b",
+                        "defaultValue": 10,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 10
+                            }
+                        ]
+                    }
+                }
+            ],
+            "name": "Заголовок"
+        },
+        "legend": {
+            "id": "2519ed7bf68d77542d1d2ab0b46e9e9d",
+            "render": "group",
+            "values": [
+                {
+                    "enabled": {
+                        "checked": true,
+                        "id": "2ee90177fa6f5de9643c37d7288747d1",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "layout": {
+                        "id": "cf8f4b25e901f62134f6f4161f07072a",
+                        "render": "select",
+                        "values": [
+                            {
+                                "items": {},
+                                "value": "horizontal"
+                            }
+                        ]
+                    },
+                    "align": {
+                        "id": "78482f9b892ed083980bfe5f148b1314",
+                        "render": "select",
+                        "values": [
+                            {
+                                "items": {},
+                                "value": "center"
+                            }
+                        ]
+                    },
+                    "verticalAlign": {
+                        "id": "38cfc2ca1d2ad693b8eb63ede10074d4",
+                        "render": "select",
+                        "values": [
+                            {
+                                "items": {},
+                                "value": "bottom"
+                            }
+                        ]
+                    },
+                    "backgroundColor": {
+                        "id": "10c921be3a98c78858435579511b5d58",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "borderColor": {
+                        "id": "a5ac2f144b83956f1f89df203d0782e5",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "borderRadius": {
+                        "id": "862b8282711483a52e8993dbf56388a9",
+                        "defaultValue": 0,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 0
+                            }
+                        ]
+                    },
+                    "borderWidth": {
+                        "id": "642a9c8ec10927c26bf75db01f7ab133",
+                        "defaultValue": 0,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 0
+                            }
+                        ]
+                    },
+                    "floating": {
+                        "checked": false,
+                        "id": "ee34af6616f6adde620ee37159c75ccc",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "itemDistance": {
+                        "id": "31738ddef2490141b022353341b614b9",
+                        "defaultValue": 20,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 20
+                            }
+                        ]
+                    },
+                    "itemWidth": {
+                        "id": "ad2b918a1a0eba725a47b05db3b2245f",
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "itemMarginTop": {
+                        "id": "80c2890cff7af3ae7fef4c5c5e6a0143",
+                        "defaultValue": 0,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 0
+                            }
+                        ]
+                    },
+                    "itemMarginBottom": {
+                        "id": "5d42ff70183b64bd4299c0ff026a02fd",
+                        "defaultValue": 0,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 0
+                            }
+                        ]
+                    },
+                    "itemStyle": {
+                        "id": "235f6dc4a9886736e5723776f6e92c05",
+                        "render": "group",
+                        "values": [
+                            {
+                                "color": {
+                                    "id": "570b27bdbcfbc4196f0f76f1cce40462",
+                                    "defaultValue": "#333333",
+                                    "render": "item",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "fontSize": {
+                                    "id": "d185149638296bd7561abdea297cc746",
+                                    "defaultValue": 12,
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {
+                                            "value": 12
+                                        }
+                                    ]
+                                },
+                                "fontWeight": {
+                                    "id": "5aed84fd500079bd020cb90d30936487",
+                                    "defaultValue": "bold",
+                                    "render": "item",
+                                    "valueType": "string",
+                                    "values": [
+                                        {
+                                            "value": "bold"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "name": "Стиль подписей"
+                    },
+                    "labelFormat": {
+                        "id": "145fb739d0ed23bf28e848c318b416fe",
+                        "defaultValue": "{name}",
+                        "render": "formatter",
+                        "valueType": "string",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "reversed": {
+                        "checked": false,
+                        "id": "db91da62f4c077a752fa066bc13a90ca",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "shadow": {
+                        "checked": false,
+                        "id": "10f3a1cdbf5506af0d9cba2a63bdfe79",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "width": {
+                        "id": "6957b98b1b07e07695fe3268b9c1620e",
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "x": {
+                        "id": "b417ad1c2ddf7e5f04ed2ded2fad06f7",
+                        "defaultValue": 0,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 0
+                            }
+                        ]
+                    },
+                    "y": {
+                        "id": "bec7113fa08a805044aa49a5fe030fdb",
+                        "defaultValue": 0,
+                        "render": "item",
+                        "valueType": "number",
+                        "values": [
+                            {
+                                "value": 0
+                            }
+                        ]
+                    },
+                    "hideAllButton": {
+                        "checked": true,
+                        "id": "bf6201e0d0195bdb59b6230041da5f52",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    }
+                }
+            ],
+            "name": "Легенда"
+        },
+        "chart": {
+            "id": "ee04453623795ec2c7af20076da35c83",
+            "render": "group",
+            "values": [
+                {
+                    "animation": {
+                        "checked": true,
+                        "id": "371ea4fdfdb9a5ea1b298dfeab29549d",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "inverted": {
+                        "checked": false,
+                        "id": "2f3c4ed60610e9a6e18f07be07dd7a41",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "colorScheme": {
+                        "id": "b13b4cccbea8406f980454a98461c3c4",
+                        "render": "styleBinding",
+                        "values": [
+                            {}
+                        ]
+                    },
+                    "backgroundColor": {
+                        "id": "d01c66f9a32a38ff5a4e31436059295e",
+                        "render": "item",
+                        "values": [
+                            {}
+                        ]
+                    }
+                }
+            ],
+            "name": "Настройки диаграммы"
+        },
+        "plotOptions": {
+            "id": "0540ff574814ecc95abfb2723b7e0434",
+            "render": "group",
+            "values": [
+                {
+                    "series": {
+                        "id": "c442b8ab33d0ebdf6c25345de4fa8f51",
+                        "render": "group",
+                        "values": [
+                            {
+                                "connectNulls": {
+                                    "checked": false,
+                                    "id": "dd3df99d6a8a233626bf05f6f201cb79",
+                                    "render": "item",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "stacking": {
+                                    "id": "56ad9ceee5d21e4b7134422074b346e4",
+                                    "render": "select",
+                                    "values": [
+                                        {
+                                            "items": {},
+                                            "value": "none"
+                                        }
+                                    ]
+                                },
+                                "dataLabels": {
+                                    "id": "a7be5fd570fe4535768c87806c4289df",
+                                    "render": "group",
+                                    "values": [
+                                        {
+                                            "enabled": {
+                                                "checked": false,
+                                                "id": "7c30df7da350f81552347fefc758294f",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "align": {
+                                                "id": "6aba36adf0e3a8e9fafd688f11c6c017",
+                                                "render": "select",
+                                                "values": [
+                                                    {
+                                                        "items": {},
+                                                        "value": "center"
+                                                    }
+                                                ]
+                                            },
+                                            "backgroundColor": {
+                                                "id": "46e78c8c0b5554c736280b8326715062",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "borderColor": {
+                                                "id": "f78a25900b3cfd7a9b6edc537e8bcdd7",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "borderRadius": {
+                                                "id": "faa3c78c1b600481f31027e7f709d1a4",
+                                                "defaultValue": 0,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "borderWidth": {
+                                                "id": "ffd781e49eae887676ef8932255fb97d",
+                                                "defaultValue": 0,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "format": {
+                                                "id": "42612ae909fd25d9bf9c137c9483b273",
+                                                "render": "formatter",
+                                                "valueType": "string",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "style": {
+                                                "id": "8b8e2350ea8fbc36667ae34b833070b1",
+                                                "render": "group",
+                                                "values": [
+                                                    {
+                                                        "color": {
+                                                            "id": "06ba30d3d25518c0a5db06fcfc6c9527",
+                                                            "defaultValue": "#333333",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {
+                                                                    "value": "#333333"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "textOutline": {
+                                                            "checked": false,
+                                                            "id": "4fd080f822fda73d8022eff5635c0207",
+                                                            "render": "item",
+                                                            "values": [
+                                                                {}
+                                                            ]
+                                                        },
+                                                        "fontSize": {
+                                                            "id": "655424f8f0be8a6436efdd7dcb4b9f37",
+                                                            "defaultValue": 11,
+                                                            "render": "item",
+                                                            "valueType": "number",
+                                                            "values": [
+                                                                {
+                                                                    "value": 11
+                                                                }
+                                                            ]
+                                                        },
+                                                        "fontWeight": {
+                                                            "id": "66e797c975edbc9a1b46f242b5074f9e",
+                                                            "defaultValue": "normal",
+                                                            "render": "item",
+                                                            "valueType": "string",
+                                                            "values": [
+                                                                {
+                                                                    "value": "normal"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "name": "Стиль подписей"
+                                            },
+                                            "padding": {
+                                                "id": "49581f4ed0501a11ffc0e5700a731857",
+                                                "defaultValue": 5,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 5
+                                                    }
+                                                ]
+                                            },
+                                            "rotation": {
+                                                "id": "e93419ae013c754ed5c18081716abac7",
+                                                "defaultValue": 0,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "shadow": {
+                                                "checked": false,
+                                                "id": "24de87cc697317133eac5aa34ed8429c",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            },
+                                            "x": {
+                                                "id": "e72565df39c54aa91a2082c4132748a5",
+                                                "defaultValue": 0,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "y": {
+                                                "id": "4b65a3369177d7965a3a0947a8dfeb9e",
+                                                "defaultValue": 0,
+                                                "render": "item",
+                                                "valueType": "number",
+                                                "values": [
+                                                    {
+                                                        "value": 0
+                                                    }
+                                                ]
+                                            },
+                                            "allowOverlap": {
+                                                "checked": false,
+                                                "id": "4425ca19436f89aea6d29a591e99bfce",
+                                                "render": "item",
+                                                "values": [
+                                                    {}
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "name": "Подписи"
+                                }
+                            }
+                        ],
+                        "name": "Общие"
+                    },
+                    "column": {
+                        "id": "6d41a8d57b20288e98ca99ede52d3699",
+                        "render": "group",
+                        "values": [
+                            {
+                                "groupPadding": {
+                                    "id": "f28e8ce5ba407f77965772563b273eec",
+                                    "defaultValue": 0.2,
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {}
+                                    ]
+                                },
+                                "pointPadding": {
+                                    "id": "b40ee142e83b5692994c068d9e801f90",
+                                    "defaultValue": 0.1,
+                                    "render": "item",
+                                    "valueType": "number",
+                                    "values": [
+                                        {}
+                                    ]
+                                }
+                            }
+                        ],
+                        "name": "Тип \"Колонки\""
+                    }
+                }
+            ],
+            "name": "Настройки серий"
+        }
+    }
+}

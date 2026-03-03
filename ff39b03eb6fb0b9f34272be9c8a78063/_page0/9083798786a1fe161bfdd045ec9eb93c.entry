@@ -1,0 +1,41 @@
+{
+    "_id": "9083798786a1fe161bfdd045ec9eb93c",
+    "_type": "DataCube.Model.SqlSource",
+    "_props": {
+        "settings": {
+            "name": "9083798786a1fe161bfdd045ec9eb93c",
+            "type": "JSB.Store.Sql.SQLStore",
+            "url": "jdbc:postgresql://localhost:5432/practice",
+            "properties": {
+                "loopbackEnabled": false,
+                "prepareConnectionSQL": "",
+                "user": "postgres",
+                "password": "sofya.ru1234"
+            },
+            "authType": "userPassword",
+            "filter": ""
+        },
+        "details": {
+            "providerName": "postgresql",
+            "updated": 1772534006897,
+            "schemes": 1,
+            "tables": 5,
+            "columns": 16
+        }
+    },
+    "_name": "База",
+    "_parent": null,
+    "_owner": "sofya.mixajlova.12@mail.ru",
+    "_shares": {},
+    "_created": 1772533537914,
+    "_updated": 1772545785294,
+    "_version": 10,
+    "_children": {
+        "cba720dd9240d61205f28f66b690b3d5": 1,
+        "eae91fb8b6f52c5ff4e9c1948e45efed": 1,
+        "c961a64902b6484a45d1a65418523bf8": 1,
+        "dcd9a310b7e33b85c85307185de106a4": 1,
+        "f34b5f25e34978892dd8872b2b2cb64e": 1
+    },
+    "_artifacts": {}
+}

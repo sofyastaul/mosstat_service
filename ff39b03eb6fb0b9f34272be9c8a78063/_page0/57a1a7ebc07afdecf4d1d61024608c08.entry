@@ -1,0 +1,20 @@
+{
+    "_id": "57a1a7ebc07afdecf4d1d61024608c08",
+    "_type": "DataCube.Model.Widget",
+    "_props": {
+        "dashboard": "195d814ec0e38389ad651173c77168da",
+        "wType": "DataCube.Widgets.LineChart",
+        "schemeVersion": 2
+    },
+    "_name": "Линейная диаграмма",
+    "_parent": "195d814ec0e38389ad651173c77168da",
+    "_owner": "sofya.mixajlova.12@mail.ru",
+    "_shares": {},
+    "_created": 1772545139636,
+    "_updated": 1772545140650,
+    "_version": 1,
+    "_children": {},
+    "_artifacts": {
+        "values": "value"
+    }
+}

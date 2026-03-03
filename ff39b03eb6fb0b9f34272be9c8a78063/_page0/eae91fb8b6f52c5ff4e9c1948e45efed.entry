@@ -1,0 +1,67 @@
+{
+    "_id": "eae91fb8b6f52c5ff4e9c1948e45efed",
+    "_type": "DataCube.Model.SqlFunction",
+    "_props": {
+        "source": {
+            "wId": "ff39b03eb6fb0b9f34272be9c8a78063",
+            "eId": "9083798786a1fe161bfdd045ec9eb93c"
+        },
+        "_settings": {
+            "commonFields": {},
+            "linkedFields": {},
+            "values": {
+                "request": {
+                    "values": [
+                        {
+                            "sqlFunctionParams": {
+                                "values": [],
+                                "id": "44184256ef23618e60ddb160e49ae873",
+                                "render": "group",
+                                "name": "Параметры SQL запроса"
+                            },
+                            "sqlCommand": {
+                                "values": [
+                                    {
+                                        "value": "SELECT * FROM public.get_cpi_by_year();"
+                                    }
+                                ],
+                                "id": "c010b722f632f8db85057de13c0ea455",
+                                "render": "item"
+                            }
+                        }
+                    ],
+                    "id": "d43f557cb79a3b19edf60b63139ed29e",
+                    "render": "group",
+                    "name": "Настройки функции"
+                }
+            }
+        },
+        "params": {},
+        "fields": {
+            "year": {
+                "id": "year",
+                "name": "year",
+                "type": "long"
+            },
+            "cpi_year": {
+                "id": "cpi_year",
+                "name": "cpi_year",
+                "type": "double"
+            },
+            "months_count": {
+                "id": "months_count",
+                "name": "months_count",
+                "type": "long"
+            }
+        }
+    },
+    "_name": "cpi_of_different_years",
+    "_parent": "9083798786a1fe161bfdd045ec9eb93c",
+    "_owner": "sofya.mixajlova.12@mail.ru",
+    "_shares": {},
+    "_created": 1772536901918,
+    "_updated": 1772537411406,
+    "_version": 4,
+    "_children": {},
+    "_artifacts": {}
+}

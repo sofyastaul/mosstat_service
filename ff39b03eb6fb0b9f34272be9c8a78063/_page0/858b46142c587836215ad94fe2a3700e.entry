@@ -1,0 +1,20 @@
+{
+    "_id": "858b46142c587836215ad94fe2a3700e",
+    "_type": "DataCube.Model.Widget",
+    "_props": {
+        "dashboard": "195d814ec0e38389ad651173c77168da",
+        "wType": "DataCube.Widgets.PieChart",
+        "schemeVersion": 2
+    },
+    "_name": "Круговая диаграмма",
+    "_parent": "195d814ec0e38389ad651173c77168da",
+    "_owner": "sofya.mixajlova.12@mail.ru",
+    "_shares": {},
+    "_created": 1772542965402,
+    "_updated": 1772542966422,
+    "_version": 1,
+    "_children": {},
+    "_artifacts": {
+        "values": "value"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "_id": "34dfed06979f6584818d87c7362cad4a",
+    "_type": "DataCube.Model.SqlTable",
+    "_props": {
+        "source": {
+            "wId": "ff39b03eb6fb0b9f34272be9c8a78063",
+            "eId": "9083798786a1fe161bfdd045ec9eb93c"
+        },
+        "commentDesc": {
+            "field": "",
+            "hasComment": false,
+            "isUseComment": false,
+            "isObject": false
+        },
+        "descriptor": {
+            "entryType": "table",
+            "name": "mosstat_poverty",
+            "type": "TABLE",
+            "isView": false,
+            "schema": "public",
+            "columns": {
+                "year": {
+                    "entryType": "column",
+                    "name": "year",
+                    "datatype": 4,
+                    "datatypeName": "INTEGER",
+                    "nativeTypeName": "int4",
+                    "size": "10",
+                    "decimalDigits": "0",
+                    "nullable": false,
+                    "autoIncrment": false,
+                    "primaryKey": "mosstat_poverty_pkey"
+                },
+                "poverty_share_percent": {
+                    "entryType": "column",
+                    "name": "poverty_share_percent",
+                    "datatype": 2,
+                    "datatypeName": "NUMERIC",
+                    "nativeTypeName": "numeric",
+                    "size": "0",
+                    "decimalDigits": "null",
+                    "nullable": true,
+                    "autoIncrment": false
+                }
+            },
+            "count": null,
+            "id": "34dfed06979f6584818d87c7362cad4a"
+        }
+    },
+    "_name": "public.mosstat_poverty",
+    "_parent": "cba720dd9240d61205f28f66b690b3d5",
+    "_owner": "sofya.mixajlova.12@mail.ru",
+    "_shares": {},
+    "_created": 1772534006892,
+    "_updated": 1772534008063,
+    "_version": 1,
+    "_children": {},
+    "_artifacts": {}
+}

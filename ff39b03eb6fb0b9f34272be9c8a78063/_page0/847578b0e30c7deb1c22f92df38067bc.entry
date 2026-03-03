@@ -1,0 +1,71 @@
+{
+    "_id": "847578b0e30c7deb1c22f92df38067bc",
+    "_type": "DataCube.Model.SqlTable",
+    "_props": {
+        "source": {
+            "wId": "ff39b03eb6fb0b9f34272be9c8a78063",
+            "eId": "9083798786a1fe161bfdd045ec9eb93c"
+        },
+        "commentDesc": {
+            "field": "",
+            "hasComment": false,
+            "isUseComment": false,
+            "isObject": false
+        },
+        "descriptor": {
+            "entryType": "table",
+            "name": "mosstat_income",
+            "type": "TABLE",
+            "isView": false,
+            "schema": "public",
+            "columns": {
+                "indicator": {
+                    "entryType": "column",
+                    "name": "indicator",
+                    "datatype": 12,
+                    "datatypeName": "VARCHAR",
+                    "nativeTypeName": "text",
+                    "size": "2147483647",
+                    "decimalDigits": "0",
+                    "nullable": false,
+                    "autoIncrment": false,
+                    "primaryKey": "mosstat_income_pkey"
+                },
+                "year": {
+                    "entryType": "column",
+                    "name": "year",
+                    "datatype": 4,
+                    "datatypeName": "INTEGER",
+                    "nativeTypeName": "int4",
+                    "size": "10",
+                    "decimalDigits": "0",
+                    "nullable": false,
+                    "autoIncrment": false,
+                    "primaryKey": "mosstat_income_pkey"
+                },
+                "value": {
+                    "entryType": "column",
+                    "name": "value",
+                    "datatype": 2,
+                    "datatypeName": "NUMERIC",
+                    "nativeTypeName": "numeric",
+                    "size": "0",
+                    "decimalDigits": "null",
+                    "nullable": true,
+                    "autoIncrment": false
+                }
+            },
+            "count": null,
+            "id": "847578b0e30c7deb1c22f92df38067bc"
+        }
+    },
+    "_name": "public.mosstat_income",
+    "_parent": "cba720dd9240d61205f28f66b690b3d5",
+    "_owner": "sofya.mixajlova.12@mail.ru",
+    "_shares": {},
+    "_created": 1772534006874,
+    "_updated": 1772534007979,
+    "_version": 1,
+    "_children": {},
+    "_artifacts": {}
+}

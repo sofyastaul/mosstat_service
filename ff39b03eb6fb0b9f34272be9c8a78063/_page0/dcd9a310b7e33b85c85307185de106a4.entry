@@ -1,0 +1,72 @@
+{
+    "_id": "dcd9a310b7e33b85c85307185de106a4",
+    "_type": "DataCube.Model.SqlFunction",
+    "_props": {
+        "source": {
+            "wId": "ff39b03eb6fb0b9f34272be9c8a78063",
+            "eId": "9083798786a1fe161bfdd045ec9eb93c"
+        },
+        "_settings": {
+            "commonFields": {},
+            "linkedFields": {},
+            "values": {
+                "request": {
+                    "values": [
+                        {
+                            "sqlFunctionParams": {
+                                "values": [],
+                                "id": "ce2b6accf2254a628b385c854ed96b13",
+                                "render": "group",
+                                "name": "Параметры SQL запроса"
+                            },
+                            "sqlCommand": {
+                                "values": [
+                                    {
+                                        "value": "SELECT * FROM public.get_morbidity_all_vs_medstaff();"
+                                    }
+                                ],
+                                "id": "f21700d875973e268be63a8a40c05058",
+                                "render": "item"
+                            }
+                        }
+                    ],
+                    "id": "839e2f20007546151a9a67c74b7c7ef6",
+                    "render": "group",
+                    "name": "Настройки функции"
+                }
+            }
+        },
+        "params": {},
+        "fields": {
+            "year": {
+                "id": "year",
+                "name": "year",
+                "type": "long"
+            },
+            "cases_total": {
+                "id": "cases_total",
+                "name": "cases_total",
+                "type": "long"
+            },
+            "doctors_total": {
+                "id": "doctors_total",
+                "name": "doctors_total",
+                "type": "long"
+            },
+            "nurses_total": {
+                "id": "nurses_total",
+                "name": "nurses_total",
+                "type": "long"
+            }
+        }
+    },
+    "_name": "morbidity_all_vs_medstaff",
+    "_parent": "9083798786a1fe161bfdd045ec9eb93c",
+    "_owner": "sofya.mixajlova.12@mail.ru",
+    "_shares": {},
+    "_created": 1772545080873,
+    "_updated": 1772545173664,
+    "_version": 4,
+    "_children": {},
+    "_artifacts": {}
+}

@@ -1,0 +1,62 @@
+{
+    "_id": "f34b5f25e34978892dd8872b2b2cb64e",
+    "_type": "DataCube.Model.SqlFunction",
+    "_props": {
+        "source": {
+            "wId": "ff39b03eb6fb0b9f34272be9c8a78063",
+            "eId": "9083798786a1fe161bfdd045ec9eb93c"
+        },
+        "_settings": {
+            "commonFields": {},
+            "linkedFields": {},
+            "values": {
+                "request": {
+                    "values": [
+                        {
+                            "sqlFunctionParams": {
+                                "values": [],
+                                "id": "36c872505b3d3ef5ce595f1e407bdfa5",
+                                "render": "group",
+                                "name": "Параметры SQL запроса"
+                            },
+                            "sqlCommand": {
+                                "values": [
+                                    {
+                                        "value": "SELECT * FROM public.get_total_morbidity_by_class();"
+                                    }
+                                ],
+                                "id": "db0b8de969a069e9fce355cb4d26e57d",
+                                "render": "item"
+                            }
+                        }
+                    ],
+                    "id": "2474bcc5eccc02351387391f0488d38d",
+                    "render": "group",
+                    "name": "Настройки функции"
+                }
+            }
+        },
+        "params": {},
+        "fields": {
+            "disease_class": {
+                "id": "disease_class",
+                "name": "disease_class",
+                "type": "string"
+            },
+            "total_cases": {
+                "id": "total_cases",
+                "name": "total_cases",
+                "type": "long"
+            }
+        }
+    },
+    "_name": "total_morbidity",
+    "_parent": "9083798786a1fe161bfdd045ec9eb93c",
+    "_owner": "sofya.mixajlova.12@mail.ru",
+    "_shares": {},
+    "_created": 1772545784260,
+    "_updated": 1772545825994,
+    "_version": 4,
+    "_children": {},
+    "_artifacts": {}
+}
